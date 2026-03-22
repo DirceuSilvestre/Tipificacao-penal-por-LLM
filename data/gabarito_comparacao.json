@@ -1,52 +1,182 @@
 [
   {
    "id": 1,
+   "nível": "fácil",
    "texto": "descricao da conduta",
    "classe_correta": "peculato"
   },
   {
    "id": 2,
+   "nível": "médio",
+   "texto": "descricao da conduta",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 3,
+   "nível": "difícil",
+   "texto": "descricao da conduta",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 4,
+   "nível": "fácil",
    "texto": "descricao da conduta",
    "classe_correta": "peculato_culposo"
   },
   {
-   "id": 3,
+   "id": 5,
+   "nível": "médio",
    "texto": "descricao da conduta",
-   "classe_correta": "peculato_mediante_erro"
+   "classe_correta": "peculato_culposo"
   },
   {
-    "id": 4,
-    "texto": "descricao da conduta",
-    "classe_correta": "concussao"
+   "id": 6,
+   "nível": "difícil",
+   "texto": "descricao da conduta",
+   "classe_correta": "peculato_culposo"
   },
   {
-    "id": 5,
-    "texto": "descricao da conduta",
-    "classe_correta": "corrupcao_passiva"
+   "id": 7,
+   "nível": "fácil",
+   "texto": "descricao da conduta",
+   "classe_correta": "peculato_mediante_erro_de_outrem"
   },
   {
-    "id": 6,
-    "texto": "descricao da conduta",
-    "classe_correta": "prevaricacao"
+   "id": 8,
+   "nível": "médio",
+   "texto": "descricao da conduta",
+   "classe_correta": "peculato_mediante_erro_de_outrem"
   },
   {
-    "id": 7,
-    "texto": "descricao da conduta",
-    "classe_correta": "condescendencia_criminosa"
+   "id": 9,
+   "nível": "difícil",
+   "texto": "descricao da conduta",
+   "classe_correta": "peculato_mediante_erro_de_outrem"
   },
   {
-    "id": 8,
-    "texto": "descricao da conduta",
-    "classe_correta": "advocacia_administrativa"
+   "id": 10,
+   "nível": "fácil",
+   "texto": "descricao da conduta",
+   "classe_correta": "concussao"
   },
   {
-    "id": 9,
-    "texto": "descricao da conduta",
-    "classe_correta": "violacao_de_sigilo_funcional"
+   "id": 11,
+   "nível": "médio",
+   "texto": "descricao da conduta",
+   "classe_correta": "concussao"
   },
   {
-    "id": 10,
-    "texto": "descricao da conduta",
-    "classe_correta": "nao_se_enquadra"
+   "id": 12,
+   "nível": "difícil",
+   "texto": "descricao da conduta",
+   "classe_correta": "concussao"
+  },
+  {
+   "id": 13,
+   "nível": "fácil",
+   "texto": "descricao da conduta",
+   "classe_correta": "corrupcao_passiva"
+  },
+  {
+   "id": 14,
+   "nível": "médio",
+   "texto": "descricao da conduta",
+   "classe_correta": "corrupcao_passiva"
+  },
+  {
+   "id": 15,
+   "nível": "difícil",
+   "texto": "descricao da conduta",
+   "classe_correta": "corrupcao_passiva"
+  },
+  {
+   "id": 16,
+   "nível": "fácil",
+   "texto": "descricao da conduta",
+   "classe_correta": "prevaricacao"
+  },
+  {
+   "id": 17,
+   "nível": "médio",
+   "texto": "descricao da conduta",
+   "classe_correta": "prevaricacao"
+  },
+  {
+   "id": 18,
+   "nível": "difícil",
+   "texto": "descricao da conduta",
+   "classe_correta": "prevaricacao"
+  },
+  {
+   "id": 19,
+   "nível": "fácil",
+   "texto": "descricao da conduta",
+   "classe_correta": "condescendencia_criminosa"
+  },
+  {
+   "id": 20,
+   "nível": "médio",
+   "texto": "descricao da conduta",
+   "classe_correta": "condescendencia_criminosa"
+  },
+  {
+   "id": 21,
+   "nível": "difícil",
+   "texto": "descricao da conduta",
+   "classe_correta": "condescendencia_criminosa"
+  },
+  {
+   "id": 22,
+   "nível": "fácil",
+   "texto": "descricao da conduta",
+   "classe_correta": "advocacia_administrativa"
+  },
+  {
+   "id": 23,
+   "nível": "médio",
+   "texto": "descricao da conduta",
+   "classe_correta": "advocacia_administrativa"
+  },
+  {
+   "id": 24,
+   "nível": "difícil",
+   "texto": "descricao da conduta",
+   "classe_correta": "advocacia_administrativa"
+  },
+  {
+   "id": 25,
+   "nível": "fácil",
+   "texto": "descricao da conduta",
+   "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+   "id": 26,
+   "nível": "médio",
+   "texto": "descricao da conduta",
+   "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+   "id": 27,
+   "nível": "difícil",
+   "texto": "descricao da conduta",
+   "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+   "id": 28,
+   "nível": "fácil",
+   "texto": "descricao da conduta",
+   "classe_correta": "nao_se_enquadra"
+  },
+  {
+   "id": 29,
+   "nível": "médio",
+   "texto": "descricao da conduta",
+   "classe_correta": "nao_se_enquadra"
+  },
+  {
+   "id": 30,
+   "nível": "difícil",
+   "texto": "descricao da conduta",
+   "classe_correta": "nao_se_enquadra"
   }
 ]
