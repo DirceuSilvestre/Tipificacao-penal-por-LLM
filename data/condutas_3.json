@@ -1,0 +1,38 @@
+[
+  {
+   "id": 13,
+   "nível": "fácil",
+   "texto": "Parlamentares solicitaram pagamento de valores para destinar recursos públicos a determinado município.",
+   "classe_correta": "corrupcao_passiva"
+  },
+  {
+   "id": 14,
+   "nível": "médio",
+   "texto": "Parlamentares condicionaram a destinação de recursos públicos ao recebimento de valores por parte de gestores municipais.",
+   "classe_correta": "corrupcao_passiva"
+  },
+  {
+   "id": 15,
+   "nível": "difícil",
+   "texto": "Recursos públicos foram direcionados a um município após tratativas entre agentes públicos e gestores locais envolvendo repasses financeiros.",
+   "classe_correta": "corrupcao_passiva"
+  },
+  {
+   "id": 16,
+   "nível": "fácil",
+   "texto": "Sargento deixou de registrar e comunicar uma infração disciplinar que presenciou, para atender a interesse pessoal.",
+   "classe_correta": "prevaricacao"
+  },
+  {
+   "id": 17,
+   "nível": "médio",
+   "texto": "Sargento, mesmo ciente de irregularidade praticada por subordinado, optou por não adotar as providências que lhe cabiam em razão de circunstâncias pessoais.",
+   "classe_correta": "prevaricacao"
+  },
+  {
+   "id": 18,
+   "nível": "difícil",
+   "texto": "Após identificar uma conduta irregular de subordinado, um agente público não tomou as medidas formais esperadas em sua função, mantendo a situação sem registro ou comunicação.",
+   "classe_correta": "prevaricacao"
+  }
+]

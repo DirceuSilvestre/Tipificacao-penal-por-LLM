@@ -1,0 +1,38 @@
+[
+  {
+   "id": 7,
+   "nível": "fácil",
+   "texto": "Funcionário público recebeu valores de usuários por engano e se apropriou desses valores sem realizar o devido repasse.",
+   "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+   "id": 8,
+   "nível": "médio",
+   "texto": "Funcionário público passou a receber valores de usuários em situações irregulares e deixou de destiná-los ao fim correto.",
+   "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+   "id": 9,
+   "nível": "difícil",
+   "texto": "Valores foram entregues por usuários a um agente público em circunstâncias atípicas de atendimento, sem que houvesse o devido registro ou encaminhamento formal desses pagamentos.",
+   "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+   "id": 10,
+   "nível": "fácil",
+   "texto": "Policiais rodoviários exigiram pagamento de motoristas para liberar veículos durante fiscalização.",
+   "classe_correta": "concussao"
+  },
+  {
+   "id": 11,
+   "nível": "médio",
+   "texto": "Policiais rodoviários condicionaram a liberação de veículos ao pagamento de valores por parte dos motoristas abordados.",
+   "classe_correta": "concussao"
+  },
+  {
+   "id": 12,
+   "nível": "difícil",
+   "texto": "Motoristas abordados em fiscalização realizaram pagamentos a agentes públicos para conseguir a liberação de seus veículos e cargas.",
+   "classe_correta": "concussao"
+  }
+]

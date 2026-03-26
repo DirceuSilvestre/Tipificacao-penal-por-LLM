@@ -1,0 +1,38 @@
+[
+  {
+   "id": 1,
+   "nível": "fácil",
+   "texto": "Vereadores receberam valores públicos sob a forma de diárias que não correspondiam a atividades realizadas.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 2,
+   "nível": "médio",
+   "texto": "Agentes públicos receberam valores sob a justificativa de diárias, embora não houvesse deslocamento ou atividade que justificasse o pagamento.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 3,
+   "nível": "difícil",
+   "texto": "Agentes públicos receberam valores previstos para custeio de atividades externas, sem a realização das atividades correspondentes.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 4,
+   "nível": "fácil",
+   "texto": "Servidoras públicas responsáveis pelo armazenamento de vacinas permitiram, por falta de cuidado, o desaparecimento de doses sob sua guarda.",
+   "classe_correta": "peculato_culposo"
+  },
+  {
+   "id": 5,
+   "nível": "médio",
+   "texto": "Agentes públicas que tinham acesso ao local onde vacinas eram armazenadas não adotaram os cuidados necessários, resultando no desaparecimento das doses.",
+   "classe_correta": "peculato_culposo"
+  },
+  {
+   "id": 6,
+   "nível": "difícil",
+   "texto": "Doses de vacina desapareceram de um local de armazenamento ao qual apenas determinadas agentes públicas possuíam acesso, sem indícios de subtração por terceiros.",
+   "classe_correta": "peculato_culposo"
+  }
+]

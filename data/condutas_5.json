@@ -1,0 +1,38 @@
+[
+    {
+   "id": 25,
+   "nível": "fácil",
+   "texto": "Um funcionário público revelou informações sigilosas de uma investigação oficial a jornalistas, violando seu dever funcional e causando prejuízo à administração pública.",
+   "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+   "id": 26,
+   "nível": "médio",
+   "texto": "Durante uma investigação em andamento, um agente público compartilhou com jornalistas detalhes sobre diligências que seriam realizadas pela polícia.",
+   "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+   "id": 27,
+   "nível": "difícil",
+   "texto": "Durante uma operação em curso, informações sobre ações futuras foram divulgadas a terceiros por alguém com acesso interno à investigação.",
+   "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+   "id": 28,
+   "nível": "fácil",
+   "texto": "Um homem matou uma mulher com golpes de faca após uma discussão, sendo posteriormente condenado por homicídio.",
+   "classe_correta": "nao_se_enquadra"
+  },
+  {
+   "id": 29,
+   "nível": "médio",
+   "texto": "Após uma discussão em um estabelecimento comercial, um indivíduo agrediu uma mulher e utilizou um objeto perfurante, causando sua morte.",
+   "classe_correta": "nao_se_enquadra"
+  },
+  {
+   "id": 30,
+   "nível": "difícil",
+   "texto": "Durante um conflito em um ambiente comercial, uma pessoa agrediu outra fisicamente e utilizou um objeto para causar lesões fatais.",
+   "classe_correta": "nao_se_enquadra"
+  }
+]
