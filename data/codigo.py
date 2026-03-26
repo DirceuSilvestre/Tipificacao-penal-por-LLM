@@ -78,7 +78,7 @@ for i in range(1, 6):
         """
         
         # MOCK (substituir pela API real)
-        API_KEY = "AIzaSyCYQNj1KTZ8xNvO9sy4A2rjPU9-57793Aw"
+        API_KEY = "sua chave"
         
 
         # The client gets the API key from the environment variable `GEMINI_API_KEY`.
