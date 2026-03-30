@@ -1,0 +1,50 @@
+[
+  {
+    "id": 7,
+    "nivel": "fácil",
+    "texto": "Funcionário público recebeu valores de usuários por engano e se apropriou desses valores sem realizar o devido repasse.",
+    "classe_real": "peculato_mediante_erro_de_outrem",
+    "classe_predita": "peculato_mediante_erro_de_outrem",
+    "justificativa": "A conduta descrita enquadra-se precisamente no artigo 313 do Código Penal Brasileiro. O crime de peculato mediante erro de outrem (também chamado de peculato-estelionato) ocorre quando o funcionário público se apropria de dinheiro ou qualquer utilidade que, no exercício de seu cargo, recebeu por erro de outrem. No caso narrado, o erro do usuário foi espontâneo e o funcionário, em vez de esclarecer o equívoco ou proceder ao repasse correto, aproveitou-se da situação para integrar o valor ao seu patrimônio."
+  },
+  {
+    "id": 8,
+    "nivel": "médio",
+    "texto": "Funcionário público passou a receber valores de usuários em situações irregulares e deixou de destiná-los ao fim correto.",
+    "classe_real": "peculato_mediante_erro_de_outrem",
+    "classe_predita": "peculato",
+    "justificativa": "A conduta descrita caracteriza o crime de peculato, previsto no Art. 312 do Código Penal brasileiro. O tipo penal ocorre quando o funcionário público se apropria de dinheiro, valor ou bem móvel (público ou particular) de que tem a posse em razão do cargo, ou o desvia em proveito próprio ou alheio. No caso narrado, o funcionário recebeu os valores valendo-se de sua função e, em vez de dar a eles o destino legal (o 'fim correto'), integrou-os ao seu patrimônio ou deu-lhes destino diverso, configurando o peculato-apropriação ou o peculato-desvio."
+  },
+  {
+    "id": 9,
+    "nivel": "difícil",
+    "texto": "Valores foram entregues por usuários a um agente público em circunstâncias atípicas de atendimento, sem que houvesse o devido registro ou encaminhamento formal desses pagamentos.",
+    "classe_real": "peculato_mediante_erro_de_outrem",
+    "classe_predita": "peculato",
+    "justificativa": "A conduta descrita enquadra-se no crime de peculato-apropriação (Art. 312, caput, 1ª parte, do Código Penal). O tipo penal configura-se quando o funcionário público se apropria de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que tem a posse em razão do cargo. No caso narrado, o agente recebe valores de usuários em função de sua atividade pública, mas, em vez de proceder ao registro formal e ao recolhimento ao erário (ou destino legal), inverte a posse e retém os valores para si ou para outrem, caracterizando o desvio da finalidade pública e a apropriação indébita qualificada pela condição de agente público."
+  },
+  {
+    "id": 10,
+    "nivel": "fácil",
+    "texto": "Policiais rodoviários exigiram pagamento de motoristas para liberar veículos durante fiscalização.",
+    "classe_real": "concussao",
+    "classe_predita": "concussao",
+    "justificativa": "A conduta descrita tipifica o crime de concussão, previsto no Art. 316 do Código Penal Brasileiro. O núcleo do tipo penal é o verbo 'exigir', que ocorre quando o funcionário público impõe a cobrança de vantagem indevida em razão da sua função. No caso narrado, os policiais rodoviários utilizaram-se do seu poder de autoridade para exigir o pagamento, o que diferencia este crime da corrupção passiva (onde o verbo seria 'solicitar' ou 'receber')."
+  },
+  {
+    "id": 11,
+    "nivel": "médio",
+    "texto": "Policiais rodoviários condicionaram a liberação de veículos ao pagamento de valores por parte dos motoristas abordados.",
+    "classe_real": "concussao",
+    "classe_predita": "concussao",
+    "justificativa": "A conduta descrita configura o crime de concussão, previsto no artigo 316 do Código Penal Brasileiro. O verbo 'condicionar' a liberação do veículo ao pagamento de valores implica uma exigência de vantagem indevida em razão da função pública exercida pelos policiais. Diferencia-se da corrupção passiva porque na concussão há uma imposição ou exigência (implicita ou explícita) por parte do funcionário público, enquanto na corrupção passiva o núcleo do tipo é solicitar, receber ou aceitar promessa."
+  },
+  {
+    "id": 12,
+    "nivel": "difícil",
+    "texto": "Motoristas abordados em fiscalização realizaram pagamentos a agentes públicos para conseguir a liberação de seus veículos e cargas.",
+    "classe_real": "concussao",
+    "classe_predita": "corrupcao_passiva",
+    "justificativa": "A conduta descrita configura o crime de corrupção passiva, tipificado no artigo 317 do Código Penal Brasileiro. O crime ocorre quando o funcionário público solicita ou recebe, para si ou para outrem, direta ou indiretamente, vantagem indevida, ou aceita promessa de tal vantagem, para praticar, omitir ou retardar ato de ofício. No caso relatado, houve o recebimento de vantagem indevida (pagamento) para a omissão de um dever funcional (liberação irregular de veículos e cargas). Nota-se que, se a iniciativa partiu dos motoristas e os agentes aceitaram/receberam, é corrupção passiva; se os agentes tivessem 'exigido' o valor, a classificação seria concussão (art. 316), mas o verbo 'receber' implícito na descrição do pagamento efetivado direciona para o art. 317."
+  }
+]

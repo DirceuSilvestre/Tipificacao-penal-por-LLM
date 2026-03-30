@@ -8,8 +8,8 @@ from google import genai
 # ======================
 
 for i in range(1, 6):
-    CAMINHO_GABARITO = "gabarito_comparacao1.json"
-    CAMINHO_SAIDA = "respostas_llm1.json"
+    CAMINHO_GABARITO = f"condutas_{i}.json"
+    CAMINHO_SAIDA = f"respostas_llm{i}.json"
 
 
     # ======================

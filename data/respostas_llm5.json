@@ -1,0 +1,50 @@
+[
+  {
+    "id": 25,
+    "nivel": "fácil",
+    "texto": "Um funcionário público revelou informações sigilosas de uma investigação oficial a jornalistas, violando seu dever funcional e causando prejuízo à administração pública.",
+    "classe_real": "violacao_de_sigilo_funcional",
+    "classe_predita": "violacao_de_sigilo_funcional",
+    "justificativa": "A conduta descrita enquadra-se no Artigo 325 do Código Penal Brasileiro (Violação de sigilo funcional), que tipifica o ato de revelar fato de que o funcionário público tem ciência em razão do cargo e que deva permanecer em segredo, ou facilitar-lhe a revelação. Ao repassar informações sigilosas de uma investigação a jornalistas, o agente viola o dever de reserva e a confiança depositada pela Administração Pública, independentemente de ter recebido qualquer vantagem em troca."
+  },
+  {
+    "id": 26,
+    "nivel": "médio",
+    "texto": "Durante uma investigação em andamento, um agente público compartilhou com jornalistas detalhes sobre diligências que seriam realizadas pela polícia.",
+    "classe_real": "violacao_de_sigilo_funcional",
+    "classe_predita": "violacao_de_sigilo_funcional",
+    "justificativa": "A conduta do agente público de compartilhar informações sigilosas sobre diligências policiais futuras amolda-se ao crime de violação de sigilo funcional, previsto no artigo 325 do Código Penal. O tipo penal pune o ato de revelar fato de que o funcionário tem ciência em razão do cargo e que deve permanecer em segredo, ou facilitar-lhe a revelação. No caso, o sigilo é inerente à eficácia das investigações e a divulgação para terceiros (jornalistas) compromete a função pública e o interesse da administração."
+  },
+  {
+    "id": 27,
+    "nivel": "difícil",
+    "texto": "Durante uma operação em curso, informações sobre ações futuras foram divulgadas a terceiros por alguém com acesso interno à investigação.",
+    "classe_real": "violacao_de_sigilo_funcional",
+    "classe_predita": "violacao_de_sigilo_funcional",
+    "justificativa": "A conduta descrita enquadra-se no artigo 325 do Código Penal Brasileiro (Violação de sigilo funcional), que tipifica o ato de revelar fato de que tem ciência em razão do cargo e que deva permanecer em segredo, ou facilitar-lhe a revelação. No caso narrado, o agente utiliza seu acesso privilegiado a informações internas de uma investigação em curso para repassá-las a terceiros, comprometendo a eficácia da Administração Pública e o sigilo inerente ao procedimento investigativo."
+  },
+  {
+    "id": 28,
+    "nivel": "fácil",
+    "texto": "Um homem matou uma mulher com golpes de faca após uma discussão, sendo posteriormente condenado por homicídio.",
+    "classe_real": "nao_se_enquadra",
+    "classe_predita": "nao_se_enquadra",
+    "justificativa": "A conduta descrita refere-se ao crime de homicídio (Art. 121 do Código Penal), que é classificado como um crime contra a vida (Título I da Parte Especial). Todas as outras classes sugeridas (peculato, concussão, corrupção passiva, etc.) são crimes contra a Administração Pública (Título XI), exigindo, em regra, a qualidade de funcionário público do agente e a violação de deveres funcionais, o que não se aplica a um caso de assassinato motivado por discussão pessoal."
+  },
+  {
+    "id": 29,
+    "nivel": "médio",
+    "texto": "Após uma discussão em um estabelecimento comercial, um indivíduo agrediu uma mulher e utilizou um objeto perfurante, causando sua morte.",
+    "classe_real": "nao_se_enquadra",
+    "classe_predita": "nao_se_enquadra",
+    "justificativa": "A conduta descrita (agressão com objeto perfurante resultando em morte após discussão) configura, em tese, o crime de Homicídio (Art. 121 do Código Penal), que pertence à categoria dos crimes contra a vida. Para que a conduta fosse classificada em qualquer uma das outras opções listadas, seria necessário que o agente fosse um funcionário público agindo no exercício de suas funções ou em razão delas, e que o bem jurídico lesado fosse a Administração Pública (probidade, patrimônio público ou moralidade administrativa), o que não ocorre no caso de um crime comum de morte violenta em estabelecimento comercial."
+  },
+  {
+    "id": 30,
+    "nivel": "difícil",
+    "texto": "Durante um conflito em um ambiente comercial, uma pessoa agrediu outra fisicamente e utilizou um objeto para causar lesões fatais.",
+    "classe_real": "nao_se_enquadra",
+    "classe_predita": "nao_se_enquadra",
+    "justificativa": "A conduta descrita (agressão física com resultado morte em ambiente comercial) configura, em tese, um crime contra a vida (Homicídio - Art. 121 do CP) ou crime contra a integridade física (Lesão corporal seguida de morte - Art. 129, §3º do CP). As demais classes listadas pertencem ao Título XI do Código Penal (Crimes contra a Administração Pública), que exigem a condição de funcionário público no exercício da função ou a violação de deveres funcionais específicos, elementos que não estão presentes em uma contenda física de natureza privada e interpessoal."
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "id": 13,
+    "nivel": "fácil",
+    "texto": "Parlamentares solicitaram pagamento de valores para destinar recursos públicos a determinado município.",
+    "classe_real": "corrupcao_passiva",
+    "classe_predita": "corrupcao_passiva",
+    "justificativa": "A conduta descrita amolda-se ao tipo penal do Art. 317 do Código Penal Brasileiro (Corrupção Passiva), que pune o funcionário público que 'solicitar ou receber, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida'. No caso, os parlamentares agiram na qualidade de agentes públicos e utilizaram o verbo núcleo 'solicitar' para obter vantagem econômica em troca da prática de um ato de ofício (a destinação de recursos públicos/emendas parlamentares)."
+  },
+  {
+    "id": 14,
+    "nivel": "médio",
+    "texto": "Parlamentares condicionaram a destinação de recursos públicos ao recebimento de valores por parte de gestores municipais.",
+    "classe_real": "corrupcao_passiva",
+    "classe_predita": "concussao",
+    "justificativa": "A conduta descrita amolda-se ao crime de concussão, previsto no Art. 316 do Código Penal brasileiro ('Exigir, para si ou para outrem, direta ou indiretamente, ainda que fora da função ou antes de assumi-la, mas em razão dela, vantagem indevida'). Ao 'condicionar' a destinação de recursos (ato de ofício ou prerrogativa parlamentar) ao pagamento de valores, o agente público está, na substância jurídica, efetuando uma exigência de vantagem indevida. Diferencia-se da corrupção passiva (Art. 317) porque nesta o verbo núcleo é 'solicitar' ou 'receber', enquanto na concussão há o caráter impositivo de uma ordem ou condição (exigência) para que o ato administrativo seja realizado."
+  },
+  {
+    "id": 15,
+    "nivel": "difícil",
+    "texto": "Recursos públicos foram direcionados a um município após tratativas entre agentes públicos e gestores locais envolvendo repasses financeiros.",
+    "classe_real": "corrupcao_passiva",
+    "classe_predita": "nao_se_enquadra",
+    "justificativa": "A conduta descrita narra apenas o fluxo administrativo de direcionamento e repasse de recursos públicos entre entes da federação mediante tratativas entre gestores. Para que houvesse o enquadramento em qualquer um dos tipos penais citados, seria necessária a descrição de um elemento ilícito específico, como a solicitação ou recebimento de vantagem indevida (corrupção), a apropriação dos valores (peculato), a exigência de vantagem (concussão) ou a intenção de satisfazer interesse pessoal (prevaricação). Da forma como está redigida, a descrição trata de atos administrativos aparentemente lícitos."
+  },
+  {
+    "id": 16,
+    "nivel": "fácil",
+    "texto": "Sargento deixou de registrar e comunicar uma infração disciplinar que presenciou, para atender a interesse pessoal.",
+    "classe_real": "prevaricacao",
+    "classe_predita": "prevaricacao",
+    "justificativa": "A conduta configura o crime de prevaricação, tipificado no art. 319 do Código Penal Brasileiro. O núcleo do tipo consiste em 'retardar ou deixar de praticar, indevidamente, ato de ofício, ou praticá-lo contra disposição expressa de lei'. O sargento, ao presenciar uma infração disciplinar, tem o dever funcional (ato de ofício) de registrá-la e comunicá-la. O elemento subjetivo que diferencia a prevaricação de outros crimes (como a condescendência criminosa, que exige 'indulgência') é a finalidade de 'satisfazer interesse ou sentimento pessoal', o que consta expressamente na descrição da conduta."
+  },
+  {
+    "id": 17,
+    "nivel": "médio",
+    "texto": "Sargento, mesmo ciente de irregularidade praticada por subordinado, optou por não adotar as providências que lhe cabiam em razão de circunstâncias pessoais.",
+    "classe_real": "prevaricacao",
+    "classe_predita": "condescendencia_criminosa",
+    "justificativa": "A conduta descrita amolda-se perfeitamente ao crime de condescendência criminosa, previsto no art. 320 do Código Penal (e de redação similar no art. 322 do Código Penal Militar). Este crime ocorre quando um superior, por indulgência (clemência, piedade ou excessiva tolerância), deixa de responsabilizar subordinado que cometeu infração no exercício do cargo ou deixa de levar o fato ao conhecimento da autoridade competente. A menção a 'circunstâncias pessoais' no enunciado caracteriza o elemento subjetivo específico do tipo, que é a indulgência em relação à falha do subordinado."
+  },
+  {
+    "id": 18,
+    "nivel": "difícil",
+    "texto": "Após identificar uma conduta irregular de subordinado, um agente público não tomou as medidas formais esperadas em sua função, mantendo a situação sem registro ou comunicação.",
+    "classe_real": "prevaricacao",
+    "classe_predita": "condescendencia_criminosa",
+    "justificativa": "A conduta descrita se amolda perfeitamente ao tipo penal previsto no artigo 320 do Código Penal Brasileiro (Condescendência Criminosa). O crime ocorre quando o funcionário público deixa, por indulgência (sentimento de piedade, clemência ou excesso de tolerância), de responsabilizar subordinado que cometeu infração no exercício do cargo ou, caso não tenha competência para tal, deixa de levar o fato ao conhecimento da autoridade competente. Diferencia-se da prevaricação pois, nesta, o agente age para satisfazer interesse ou sentimento pessoal genérico, enquanto na condescendência a motivação específica é a indulgência em face de um subordinado."
+  }
+]

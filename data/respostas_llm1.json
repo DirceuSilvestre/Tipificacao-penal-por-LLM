@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "nivel": "fácil",
+    "texto": "Vereadores receberam valores públicos sob a forma de diárias que não correspondiam a atividades realizadas.",
+    "classe_real": "peculato",
+    "classe_predita": "peculato",
+    "justificativa": "A conduta descrita configura o crime de peculato, previsto no Artigo 312 do Código Penal Brasileiro. Ao receberem diárias por atividades não realizadas, os vereadores (funcionários públicos para fins penais) apropriam-se ou desviam dinheiro público em proveito próprio, valendo-se do cargo que ocupam. A jurisprudência dos tribunais superiores (STF e STJ) é pacífica no sentido de que o recebimento de diárias 'frias' ou sem a devida contraprestação de interesse público caracteriza o peculato nas modalidades apropriação ou desvio."
+  },
+  {
+    "id": 2,
+    "nivel": "médio",
+    "texto": "Agentes públicos receberam valores sob a justificativa de diárias, embora não houvesse deslocamento ou atividade que justificasse o pagamento.",
+    "classe_real": "peculato",
+    "classe_predita": "peculato",
+    "justificativa": "A conduta de receber diárias sem o correspondente deslocamento ou prestação de serviço configura o crime de peculato-desvio ou peculato-apropriação (Art. 312 do Código Penal). O agente público, valendo-se da facilidade que o cargo lhe proporciona, desvia verbas públicas em proveito próprio, conferindo uma aparência de legalidade (pagamento de diárias) a um enriquecimento ilícito. A jurisprudência dos tribunais superiores brasileiros (STF e STJ) é pacífica no sentido de que o recebimento de 'diárias frias' subsome-se ao tipo penal do peculato."
+  },
+  {
+    "id": 3,
+    "nivel": "difícil",
+    "texto": "Agentes públicos receberam valores previstos para custeio de atividades externas, sem a realização das atividades correspondentes.",
+    "classe_real": "peculato",
+    "classe_predita": "peculato",
+    "justificativa": "A conduta descreve o crime de peculato (Art. 312 do Código Penal), especificamente nas modalidades de apropriação ou desvio. Quando agentes públicos recebem verbas destinadas a finalidades específicas (como diárias ou custeio de atividades externas) e as incorporam ao patrimônio pessoal sem realizar a contrapartida laboral ou o serviço que justificaria o pagamento, eles estão se apropriando de valores de que têm a posse em razão do cargo ou desviando-os em proveito próprio. A jurisprudência brasileira consolidou o entendimento de que o recebimento de diárias por viagens não realizadas configura o crime de peculato."
+  },
+  {
+    "id": 4,
+    "nivel": "fácil",
+    "texto": "Servidoras públicas responsáveis pelo armazenamento de vacinas permitiram, por falta de cuidado, o desaparecimento de doses sob sua guarda.",
+    "classe_real": "peculato_culposo",
+    "classe_predita": "peculato_culposo",
+    "justificativa": "A conduta configura o crime de peculato culposo, previsto no Art. 312, § 2º, do Código Penal Brasileiro. O tipo penal ocorre quando o funcionário público, por negligência, imprudência ou imperícia (no caso, descrita como 'falta de cuidado'), contribui para que o bem sob sua guarda (as vacinas) seja subtraído, extraviado ou desapareça. Diferente das formas dolosas, aqui não há intenção de apropriar-se ou desviar, mas sim uma quebra do dever de cuidado no zelo pelo patrimônio público."
+  },
+  {
+    "id": 5,
+    "nivel": "médio",
+    "texto": "Agentes públicas que tinham acesso ao local onde vacinas eram armazenadas não adotaram os cuidados necessários, resultando no desaparecimento das doses.",
+    "classe_real": "peculato_culposo",
+    "classe_predita": "peculato_culposo",
+    "justificativa": "A conduta descrita configura o crime de peculato culposo, previsto no Art. 312, § 2º, do Código Penal Brasileiro. O tipo penal ocorre quando o funcionário público, por negligência, imprudência ou imperícia (neste caso, a falta dos 'cuidados necessários'), concorre para que o bem público sob sua guarda ou acesso seja subtraído por outrem ou se perca. A ausência de dolo (intenção de apropriar-se ou desviar) e a presença da quebra do dever de cuidado que resulta no desaparecimento das doses enquadram-se perfeitamente nesta modalidade."
+  },
+  {
+    "id": 6,
+    "nivel": "difícil",
+    "texto": "Doses de vacina desapareceram de um local de armazenamento ao qual apenas determinadas agentes públicas possuíam acesso, sem indícios de subtração por terceiros.",
+    "classe_real": "peculato_culposo",
+    "classe_predita": "peculato",
+    "justificativa": "A conduta descreve o desaparecimento de bens móveis (vacinas) que estavam sob a guarda e responsabilidade de agentes públicos em razão do cargo. Uma vez que o acesso era restrito a esses agentes e não há indícios de subtração por terceiros (o que afastaria o furto comum), a situação configura, em tese, o crime de peculato-apropriação ou peculato-desvio, conforme previsto no Art. 312, caput, do Código Penal Brasileiro, caracterizado pela apropriação de dinheiro, valor ou qualquer outro bem móvel, público ou particular, de que o funcionário tem a posse em razão do cargo, ou seu desvio em proveito próprio ou alheio."
+  }
+]
