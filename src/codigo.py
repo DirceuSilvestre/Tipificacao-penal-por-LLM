@@ -1,15 +1,15 @@
 import re
 import json
 import time
-from google import genai
+import google.genai
 
 # ======================
 # CONFIG
 # ======================
 
 for i in range(1, 6):
-    CAMINHO_GABARITO = f"condutas_{i}.json"
-    CAMINHO_SAIDA = f"respostas_llm{i}.json"
+    CAMINHO_GABARITO = f"data/processed/curado/condutas_{i}.json"
+    CAMINHO_SAIDA = f"data/outputs/curado/respostas_llm{i}.json"
 
 
     # ======================
@@ -82,7 +82,7 @@ for i in range(1, 6):
         
 
         # The client gets the API key from the environment variable `GEMINI_API_KEY`.
-        client = genai.Client(api_key=API_KEY)
+        client = google.genai.Client(api_key=API_KEY)
 
         response = client.models.generate_content(
             model="gemini-3-flash-preview", contents=prompt
@@ -152,4 +152,4 @@ for i in range(1, 6):
     if __name__ == "__main__":
         main()
 
-    time.sleep(60)
+    time.sleep(300) # aguarda 5 minutos antes da próxima requisicao em uma tentativa de evitar que precise gerar outra chave de api e tudo ocorra no mesmo pipeline sem intervenção humana
