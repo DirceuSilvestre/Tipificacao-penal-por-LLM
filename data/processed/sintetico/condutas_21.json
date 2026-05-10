@@ -1,0 +1,38 @@
+[
+  {
+    "id": 121,
+    "nível": "fácil",
+    "texto": "A pessoa entrega dinheiro por engano ao servidor, e ele fica com o valor sabendo do erro.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 122,
+    "nível": "médio",
+    "texto": "O funcionário recebe pagamento equivocado de cidadão durante o trabalho e decide se apropriar da quantia.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 123,
+    "nível": "difícil",
+    "texto": "O agente estatal, percebendo entrega pecuniária indevida decorrente de equívoco de administrado no contexto funcional, incorpora conscientemente o numerário ao patrimônio próprio.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 124,
+    "nível": "fácil",
+    "texto": "O servidor recebe por engano um vale com valor e resolve ficar com ele.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 125,
+    "nível": "médio",
+    "texto": "Durante atendimento público, o agente recebe utilidade financeira entregue por erro de terceiro e a retém para si.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 126,
+    "nível": "difícil",
+    "texto": "No desempenho das atribuições administrativas, o funcionário obtém título patrimonial repassado equivocadamente por particular e voluntariamente o incorpora ao seu acervo.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  }
+]

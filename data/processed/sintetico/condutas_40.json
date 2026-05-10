@@ -1,0 +1,38 @@
+[
+  {
+    "id": 235,
+    "nível": "fácil",
+    "texto": "O servidor encontra celular com preso e não recolhe o aparelho.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 236,
+    "nível": "médio",
+    "texto": "O responsável pela unidade prisional deixa de retirar telefone encontrado em posse de preso.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 237,
+    "nível": "difícil",
+    "texto": "Mesmo ciente da posse irregular de aparelho telefônico por interno, o agente público abstém-se de adotar a medida repressiva devida.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 238,
+    "nível": "fácil",
+    "texto": "O diretor do presídio deixa preso continuar usando telefone.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 239,
+    "nível": "médio",
+    "texto": "O diretor penal omite dever funcional e permite acesso contínuo de preso a aparelho telefônico.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 240,
+    "nível": "difícil",
+    "texto": "Violando obrigação institucional de impedir meios de comunicação indevidos, o gestor carcerário tolera uso reiterado de telefone por custodiado.",
+    "classe_correta": "prevaricacao"
+  }
+]

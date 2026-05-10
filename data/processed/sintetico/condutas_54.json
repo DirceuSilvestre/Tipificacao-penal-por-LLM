@@ -1,0 +1,38 @@
+[
+  {
+    "id": 319,
+    "nível": "fácil",
+    "texto": "O servidor usa o sistema para ver dados secretos sem precisar.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 320,
+    "nível": "médio",
+    "texto": "O funcionário acessa informações sigilosas sem justificativa funcional.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 321,
+    "nível": "difícil",
+    "texto": "Extrapolando os limites de sua competência, o agente utiliza acesso restrito para consultar dados protegidos sem finalidade legítima.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 322,
+    "nível": "fácil",
+    "texto": "O servidor entra no sistema e usa dados sigilosos para fins pessoais.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 323,
+    "nível": "médio",
+    "texto": "O agente acessa banco de dados sigiloso e utiliza informações para finalidade indevida.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 324,
+    "nível": "difícil",
+    "texto": "Valendo-se de acesso privilegiado, o funcionário manipula dados protegidos para finalidade alheia às atribuições funcionais.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  }
+]

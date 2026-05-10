@@ -1,0 +1,38 @@
+[
+  {
+    "id": 157,
+    "nível": "fácil",
+    "texto": "O fiscal manda comerciante pagar para não ser fiscalizado.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 158,
+    "nível": "médio",
+    "texto": "O agente exige vantagem econômica para deixar de fiscalizar estabelecimento.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 159,
+    "nível": "difícil",
+    "texto": "Mediante abuso da função fiscalizatória, o servidor impõe prestação patrimonial indevida ao comerciante para omitir controle administrativo.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 160,
+    "nível": "fácil",
+    "texto": "O funcionário exige um bem valioso para acelerar o processo.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 161,
+    "nível": "médio",
+    "texto": "O servidor condiciona a rapidez do procedimento à entrega de bem de valor.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 162,
+    "nível": "difícil",
+    "texto": "O agente público, explorando sua posição funcional, exige utilidade patrimonial como requisito para priorização indevida de trâmite administrativo.",
+    "classe_correta": "concussao"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 175,
+    "nível": "fácil",
+    "texto": "O servidor manda outra pessoa cobrar dinheiro para fazer serviço público.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 176,
+    "nível": "médio",
+    "texto": "Por meio de intermediário, o agente exige valor indevido para prestar serviço estatal devido.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 177,
+    "nível": "difícil",
+    "texto": "Utilizando interposta pessoa, o funcionário formula exigência patrimonial ilícita como condição para execução de serviço público obrigatório.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 178,
+    "nível": "fácil",
+    "texto": "O agente exige dinheiro para encaminhar processo e beneficiar outra pessoa.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 179,
+    "nível": "médio",
+    "texto": "O servidor exige vantagem econômica para dar andamento a processo administrativo em favor de terceiro.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 180,
+    "nível": "difícil",
+    "texto": "Valendo-se da capacidade decisória no âmbito administrativo, o agente condiciona o impulso processual ao pagamento indevido destinado a outrem.",
+    "classe_correta": "concussao"
+  }
+]

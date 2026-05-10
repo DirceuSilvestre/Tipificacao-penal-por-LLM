@@ -1,0 +1,38 @@
+[
+  {
+    "id": 145,
+    "nível": "fácil",
+    "texto": "Uma pessoa transfere dinheiro errado ao servidor, e ele fica com a quantia.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 146,
+    "nível": "médio",
+    "texto": "O funcionário recebe transferência equivocada de particular e mantém os valores para si.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 147,
+    "nível": "difícil",
+    "texto": "Ciente do equívoco de particular que lhe remeteu valores no contexto funcional, o agente público decide reter indevidamente o montante.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 148,
+    "nível": "fácil",
+    "texto": "O cidadão entrega dinheiro errado ao servidor, e ele coloca no próprio bolso.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 149,
+    "nível": "médio",
+    "texto": "O funcionário recebe quantia entregue indevidamente em razão do trabalho e a incorpora ao patrimônio.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 150,
+    "nível": "difícil",
+    "texto": "No exercício da função pública, ao receber numerário entregue por erro de administrado, o agente resolve integrá-lo ilicitamente ao acervo pessoal.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 103,
+    "nível": "fácil",
+    "texto": "O servidor deixa alguém não autorizado mexer em bens públicos e essa pessoa fica com eles.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 104,
+    "nível": "médio",
+    "texto": "O funcionário permite, imprudentemente, o acesso de pessoa não autorizada a bens públicos, facilitando sua apropriação.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 105,
+    "nível": "difícil",
+    "texto": "O agente público, ao admitir indevidamente o manuseio de bens por terceiros, concorre culposamente para sua apropriação.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 106,
+    "nível": "fácil",
+    "texto": "O servidor age de forma arriscada com dinheiro público e outra pessoa desvia esse dinheiro.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 107,
+    "nível": "médio",
+    "texto": "O funcionário adota conduta imprudente na gestão de valores públicos, permitindo desvio por terceiros.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 108,
+    "nível": "difícil",
+    "texto": "O agente estatal, por gestão temerária de recursos públicos, cria condições para seu desvio por terceiros.",
+    "classe_correta": "peculato_culposo"
+  }
+]

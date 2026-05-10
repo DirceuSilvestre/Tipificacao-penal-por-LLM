@@ -55,9 +55,10 @@ from utils import obter_caminhos_arquivos_entrada
 logging.basicConfig(
     level=logging.DEBUG,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    encoding='utf-8',
     handlers=[
         logging.StreamHandler(sys.stdout),
-        logging.FileHandler("tipificacao_penal.log")
+        logging.FileHandler("logs/tipificacao_penal.log")
     ]
 )
 logger = logging.getLogger(__name__)
@@ -70,9 +71,21 @@ TIPO_DATASET: Final[str] = "sintetico"  # Alterar para "sintetico" ou "curado" c
 
 def main():
 
-    logger.info(f"Iniciando a tipificação de condutas do dataset: {TIPO_DATASET}")
+    try:
+        logger.info(f"Iniciando a tipificação de condutas do dataset: {TIPO_DATASET}")
 
-    caminhos_arquivos = obter_caminhos_arquivos_entrada(TIPO_DATASET)
+        logger.debug("Obtendo caminhos dos arquivos de entrada...")
+        caminhos_arquivos = obter_caminhos_arquivos_entrada(TIPO_DATASET)
+
+        "ja sabemos que esta retornando corretamente os caminhos dos arquivos de entrada"
+        "agora precisamos fazer o processamento de tipificação para cada caminho de arquivo contido na variavel caminhos_arquivos"
+
+    except Exception as e:
+        # Captura qualquer outro erro (banco de dados, memória, etc.)
+        logger.critical(f"Ocorreu um erro inesperado: {e}")
+        sys.exit(1)
+
+    logger.info("Se esta mensagem esta sendo exibida então o código funcionou corretamente!")
 
 if __name__ == "__main__":
     main()

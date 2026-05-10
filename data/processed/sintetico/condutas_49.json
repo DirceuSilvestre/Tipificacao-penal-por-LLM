@@ -1,0 +1,38 @@
+[
+  {
+    "id": 289,
+    "nível": "fácil",
+    "texto": "O servidor tenta cancelar multa de conhecido usando o cargo.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 290,
+    "nível": "médio",
+    "texto": "O funcionário intercede internamente para afastar penalidade administrativa aplicada a particular conhecido.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 291,
+    "nível": "difícil",
+    "texto": "Em favor de terceiro relacionado, o agente público maneja influência funcional visando desconstituir sanção regularmente imposta.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 292,
+    "nível": "fácil",
+    "texto": "O servidor usa acesso do trabalho para ajudar empresa amiga em contratação pública.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 293,
+    "nível": "médio",
+    "texto": "O funcionário emprega acesso institucional para favorecer empresa privada em contratação estatal.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 294,
+    "nível": "difícil",
+    "texto": "Aproveitando-se das prerrogativas do cargo, o agente patrocina interesse empresarial particular em procedimento contratual público.",
+    "classe_correta": "advocacia_administrativa"
+  }
+]

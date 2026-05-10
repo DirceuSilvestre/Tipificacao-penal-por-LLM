@@ -1,0 +1,38 @@
+[
+  {
+    "id": 139,
+    "nível": "fácil",
+    "texto": "Entregam um envelope com dinheiro por engano ao servidor, e ele fica com tudo.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 140,
+    "nível": "médio",
+    "texto": "O funcionário recebe valores entregues equivocadamente durante atividade pública e resolve retê-los.O agente recebe vantagem econômica remetida equivocadamente e decide não devolver.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 141,
+    "nível": "difícil",
+    "texto": "Recebido invólucro contendo numerário por equívoco de administrado no curso do expediente, o agente estatal apropria-se conscientemente do conteúdo.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 142,
+    "nível": "fácil",
+    "texto": "O setor recebe item valioso por engano, e o servidor pega para si.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 143,
+    "nível": "médio",
+    "texto": "O agente público recebe utilidade enviada por erro de terceiro ao local de trabalho e se apropria do bem.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 144,
+    "nível": "difícil",
+    "texto": "Encaminhada vantagem patrimonial por erro material ao órgão em que atua, o servidor a subtrai da esfera administrativa para incorporação pessoal.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  }
+]

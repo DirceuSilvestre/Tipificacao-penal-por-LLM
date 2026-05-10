@@ -1,0 +1,38 @@
+[
+  {
+    "id": 247,
+    "nível": "fácil",
+    "texto": "O diretor não responsabiliza servidor que desviou material público por pena dele.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 248,
+    "nível": "médio",
+    "texto": "O diretor administrativo deixa de responsabilizar subordinado por desvio de bens, por indulgência.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 249,
+    "nível": "difícil",
+    "texto": "Conhecendo irregular apropriação de recursos públicos por subordinado, o gestor abstém-se de adotar responsabilização em razão de benevolência pessoal.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 250,
+    "nível": "fácil",
+    "texto": "O coordenador não pune funcionário que abandonou o trabalho porque quis ajudar.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 251,
+    "nível": "médio",
+    "texto": "O superior deixa de punir subordinado que abandonou posto de serviço por benevolência.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 252,
+    "nível": "difícil",
+    "texto": "Embora ciente de abandono funcional praticado por subordinado, o agente competente renuncia à medida disciplinar motivado por tolerância subjetiva.",
+    "classe_correta": "condescendencia_criminosa"
+  }
+]

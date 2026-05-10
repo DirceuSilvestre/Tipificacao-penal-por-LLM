@@ -1,0 +1,38 @@
+[
+  {
+    "id": 343,
+    "nível": "fácil",
+    "texto": "O servidor fala de forma inadequada com o público.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 344,
+    "nível": "médio",
+    "texto": "O funcionário utiliza linguagem imprópria em atendimento, sem finalidade ilícita.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 345,
+    "nível": "difícil",
+    "texto": "No exercício funcional, o agente adota postura comunicativa inadequada, sem qualquer vínculo com obtenção de vantagem ou favorecimento indevido.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 346,
+    "nível": "fácil",
+    "texto": "O servidor perde prazo por excesso de trabalho.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 347,
+    "nível": "médio",
+    "texto": "O funcionário deixa de cumprir prazo administrativo por sobrecarga.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 348,
+    "nível": "difícil",
+    "texto": "Em razão de acúmulo de demandas, o agente público não observa prazo procedimental, sem motivação pessoal ilícita.",
+    "classe_correta": "nao_se_enquadra"
+  }
+]

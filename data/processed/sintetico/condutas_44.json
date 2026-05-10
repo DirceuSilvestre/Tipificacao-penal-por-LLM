@@ -1,0 +1,38 @@
+[
+  {
+    "id": 259,
+    "nível": "fácil",
+    "texto": "O chefe imediato não avisou o superior sobre erro do subordinado porque era amigo dele.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 260,
+    "nível": "médio",
+    "texto": "Sem poder de punição, o chefe deixa de informar infração funcional praticada por subordinado por amizade.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 261,
+    "nível": "difícil",
+    "texto": "Por motivo de indulgência decorrente de relação pessoal, o superior imediato abstém-se de reportar ilícito funcional do subordinado à instância competente.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 262,
+    "nível": "fácil",
+    "texto": "O superior não comunica falta grave do subordinado porque quis relevar.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 263,
+    "nível": "médio",
+    "texto": "O servidor hierarquicamente superior omite comunicação de infração grave do subordinado por complacência.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 264,
+    "nível": "difícil",
+    "texto": "Ciente de transgressão relevante cometida por subordinado, o superior funcional deixa de acionar a autoridade competente movido por indulgência.",
+    "classe_correta": "condescendencia_criminosa"
+  }
+]

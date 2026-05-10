@@ -1,0 +1,38 @@
+[
+  {
+    "id": 241,
+    "nível": "fácil",
+    "texto": "O chefe não pune subordinado que errou no cargo porque era amigo dele.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 242,
+    "nível": "médio",
+    "texto": "O superior deixa de abrir procedimento contra subordinado infrator por amizade pessoal.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 243,
+    "nível": "difícil",
+    "texto": "Detendo atribuição correicional, o agente público abstém-se de responsabilizar subordinado faltoso movido por indulgência decorrente de vínculo pessoal.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 244,
+    "nível": "fácil",
+    "texto": "O supervisor não aplica punição a servidor que fraudou registro porque quis relevar.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 245,
+    "nível": "médio",
+    "texto": "Tendo competência, o chefe deixa de sancionar subordinado que alterou registro oficial por complacência.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 246,
+    "nível": "difícil",
+    "texto": "Mesmo investido de poder disciplinar, o superior hierárquico omite reprimenda funcional a subordinado infrator por leniência voluntária.",
+    "classe_correta": "condescendencia_criminosa"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 265,
+    "nível": "fácil",
+    "texto": "O coordenador não podia punir e também não contou o desvio do subordinado.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 266,
+    "nível": "médio",
+    "texto": "Sem competência sancionadora, o coordenador deixa de relatar desvio funcional do subordinado por benevolência.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 267,
+    "nível": "difícil",
+    "texto": "Mesmo impossibilitado de impor sanção direta, o agente hierárquico omite encaminhamento formal de irregularidade funcional à autoridade apta, por tolerância pessoal.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 268,
+    "nível": "fácil",
+    "texto": "O responsável pela equipe não avisa a autoridade sobre erro do subordinado porque quis proteger.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 269,
+    "nível": "médio",
+    "texto": "O chefe de equipe deixa de noticiar infração funcional praticada por subordinado por indulgência pessoal.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 270,
+    "nível": "difícil",
+    "texto": "Movido por sentimento de proteção indevida, o superior responsável abstém-se de comunicar à autoridade competente ilícito cometido por subordinado no exercício do cargo.",
+    "classe_correta": "condescendencia_criminosa"
+  }
+]

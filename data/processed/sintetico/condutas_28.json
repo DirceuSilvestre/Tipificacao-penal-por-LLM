@@ -1,0 +1,38 @@
+[
+  {
+    "id": 163,
+    "nível": "fácil",
+    "texto": "Mesmo fora do trabalho, o servidor cobra dinheiro dizendo que pode resolver o caso.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 164,
+    "nível": "médio",
+    "texto": "Fora do expediente, o agente exige quantia indevida invocando a função pública.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 165,
+    "nível": "difícil",
+    "texto": "Ainda ausente do exercício imediato das atividades, o funcionário utiliza a autoridade do cargo para impor pagamento ilícito ao particular.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 166,
+    "nível": "fácil",
+    "texto": "Antes de tomar posse, a pessoa exige dinheiro para agir no futuro cargo.Mesmo fora do trabalho, o servidor cobra dinheiro dizendo que pode resolver o caso.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 167,
+    "nível": "médio",
+    "texto": "Nomeado para cargo público, o agente exige vantagem indevida antes da posse.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 168,
+    "nível": "difícil",
+    "texto": "Mesmo antes da investidura formal, o futuro servidor condiciona atuação funcional futura ao recebimento de benefício patrimonial ilícito.",
+    "classe_correta": "concussao"
+  }
+]

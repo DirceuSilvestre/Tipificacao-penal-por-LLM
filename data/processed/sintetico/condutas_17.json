@@ -1,0 +1,38 @@
+[
+  {
+    "id": 97,
+    "nível": "fácil",
+    "texto": "O servidor deixa de controlar dinheiro público e outra pessoa desvia esse dinheiro.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 98,
+    "nível": "médio",
+    "texto": "O funcionário omite medidas de controle sobre valores públicos, permitindo desvio por terceiros.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 99,
+    "nível": "difícil",
+    "texto": "O agente, por inércia negligente nos mecanismos de controle, concorre para o desvio de valores públicos por terceiros.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 100,
+    "nível": "fácil",
+    "texto": "O servidor expõe dinheiro público ao risco e outra pessoa pega esse dinheiro.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 101,
+    "nível": "médio",
+    "texto": "O funcionário age de forma imprudente ao expor valores públicos, possibilitando sua subtração por terceiros.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 102,
+    "nível": "difícil",
+    "texto": "O agente estatal, mediante conduta imprudente, cria situação de risco que viabiliza a subtração de valores públicos por terceiros.",
+    "classe_correta": "peculato_culposo"
+  }
+]

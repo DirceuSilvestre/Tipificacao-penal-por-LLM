@@ -1,0 +1,38 @@
+[
+  {
+   "id": 49,
+   "nível": "fácil",
+   "texto": "O servidor não sabe administrar corretamente bens públicos e outra pessoa os pega.",
+   "classe_correta": "peculato_culposo"
+  },
+  {
+   "id": 50,
+   "nível": "médio",
+   "texto": "O funcionário, por falta de capacidade técnica, permite que terceiros subtraiam bens públicos.",
+   "classe_correta": "peculato_culposo"
+  },
+  {
+   "id": 51,
+   "nível": "difícil",
+   "texto": "O agente público, por imperícia na administração patrimonial, contribui para a subtração de bens por terceiros.",
+   "classe_correta": "peculato_culposo"
+  },
+  {
+   "id": 52,
+   "nível": "fácil",
+   "texto": "O servidor não sabe controlar dinheiro público e outra pessoa desvia esse dinheiro.",
+   "classe_correta": "peculato_culposo"
+  },
+  {
+   "id": 53,
+   "nível": "médio",
+   "texto": "O funcionário demonstra imperícia no controle de valores públicos, facilitando desvio por terceiros.",
+   "classe_correta": "peculato_culposo"
+  },
+  {
+   "id": 54,
+   "nível": "difícil",
+   "texto": "A deficiência técnica do agente no controle financeiro público viabiliza o desvio de valores por terceiros.",
+   "classe_correta": "peculato_culposo"
+  }
+]

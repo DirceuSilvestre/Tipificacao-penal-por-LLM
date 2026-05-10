@@ -1,0 +1,38 @@
+[
+  {
+    "id": 151,
+    "nível": "fácil",
+    "texto": "O servidor manda o cidadão pagar dinheiro extra para fazer seu serviço.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 152,
+    "nível": "médio",
+    "texto": "O funcionário exige quantia indevida para praticar ato que deveria realizar.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 153,
+    "nível": "difícil",
+    "texto": "O agente estatal impõe ao administrado pagamento ilícito como condição para execução de ato funcional, visando proveito próprio.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 154,
+    "nível": "fácil",
+    "texto": "O servidor obriga a pessoa a pagar para liberar um documento.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 155,
+    "nível": "médio",
+    "texto": "O agente público exige valor indevido de particular para liberar documento administrativo.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 156,
+    "nível": "difícil",
+    "texto": "Valendo-se da autoridade pública, o funcionário condiciona a entrega de documento estatal ao pagamento de vantagem indevida destinada a terceiro.",
+    "classe_correta": "concussao"
+  }
+]

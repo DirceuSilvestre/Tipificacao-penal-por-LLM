@@ -1,0 +1,38 @@
+[
+  {
+    "id": 181,
+    "nível": "fácil",
+    "texto": "O servidor pede dinheiro extra para fazer algo do trabalho.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 182,
+    "nível": "médio",
+    "texto": "O funcionário solicita quantia indevida para realizar ato ligado ao cargo.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 183,
+    "nível": "difícil",
+    "texto": "O agente estatal formula pedido patrimonial ilícito como condição informal para desempenho de atribuição funcional, visando proveito próprio.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 184,
+    "nível": "fácil",
+    "texto": "O servidor recebe dinheiro para ajudar em processo administrativo.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 185,
+    "nível": "médio",
+    "texto": "O agente público recebe vantagem indevida de particular para favorecer procedimento administrativo.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 186,
+    "nível": "difícil",
+    "texto": "Mediante recebimento de prestação econômica ilícita, o funcionário compromete a imparcialidade no trato de processo submetido à esfera pública.",
+    "classe_correta": "corrupcao_passiva"
+  }
+]

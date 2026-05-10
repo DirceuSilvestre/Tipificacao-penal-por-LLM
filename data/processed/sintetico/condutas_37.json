@@ -1,0 +1,38 @@
+[
+  {
+    "id": 217,
+    "nível": "fácil",
+    "texto": "O servidor faz algo proibido pela lei para ajudar parente.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 218,
+    "nível": "médio",
+    "texto": "O agente pratica ato administrativo contrário à lei para beneficiar familiar.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 219,
+    "nível": "difícil",
+    "texto": "Em desvio de finalidade, o funcionário executa providência vedada por norma expressa visando favorecimento de vínculo familiar.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 220,
+    "nível": "fácil",
+    "texto": "O servidor atrasa pedido oficial por vingança.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 221,
+    "nível": "médio",
+    "texto": "O funcionário retarda análise administrativa por sentimento pessoal contra o interessado.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 222,
+    "nível": "difícil",
+    "texto": "Impulsionado por ressentimento subjetivo, o agente posterga indevidamente deliberação funcional devida ao administrado.",
+    "classe_correta": "prevaricacao"
+  }
+]

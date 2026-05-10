@@ -1,0 +1,38 @@
+[
+  {
+    "id": 253,
+    "nível": "fácil",
+    "texto": "O gerente podia agir, mas não tomou medida contra subordinado que mexeu em documento errado.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 254,
+    "nível": "médio",
+    "texto": "Podendo agir, o chefe não responsabiliza subordinado que adulterou documento interno por tolerância indevida.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 255,
+    "nível": "difícil",
+    "texto": "Investido de atribuição sancionatória, o superior hierárquico deixa de reagir à falsificação documental interna praticada por subordinado em razão de indulgência.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 256,
+    "nível": "fácil",
+    "texto": "O chefe que não podia punir também não contou ao superior que subordinado recebeu vantagem indevida.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 257,
+    "nível": "médio",
+    "texto": "Sem competência disciplinar, o funcionário deixa de comunicar à autoridade superior infração de subordinado por indulgência.",
+    "classe_correta": "condescendencia_criminosa"
+  },
+  {
+    "id": 258,
+    "nível": "difícil",
+    "texto": "Desprovido de poder sancionador direto, o agente omite ciência à autoridade competente acerca de falta funcional de subordinado por complacência deliberada.",
+    "classe_correta": "condescendencia_criminosa"
+  }
+]

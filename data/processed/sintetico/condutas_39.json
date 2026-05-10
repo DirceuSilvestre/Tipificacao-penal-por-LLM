@@ -1,0 +1,38 @@
+[
+  {
+    "id": 229,
+    "nível": "fácil",
+    "texto": "O diretor do presídio deixa preso ficar com telefone para falar com fora da prisão.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 230,
+    "nível": "médio",
+    "texto": "O diretor penitenciário não impede que preso mantenha aparelho telefônico apto à comunicação externa.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 231,
+    "nível": "difícil",
+    "texto": "Descumprindo dever legal de vigilância carcerária, o gestor prisional tolera posse de equipamento comunicador por custodiado.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 232,
+    "nível": "fácil",
+    "texto": "O agente penitenciário deixa preso usar rádio comunicador proibido.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 233,
+    "nível": "médio",
+    "texto": "O servidor penitenciário se omite e permite uso de rádio capaz de comunicação pelo preso.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 234,
+    "nível": "difícil",
+    "texto": "Por omissão funcional relevante, o agente encarregado da custódia admite utilização de dispositivo comunicacional vedado no cárcere.",
+    "classe_correta": "prevaricacao"
+  }
+]

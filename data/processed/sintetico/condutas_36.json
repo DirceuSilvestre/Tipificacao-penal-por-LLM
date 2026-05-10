@@ -1,0 +1,38 @@
+[
+  {
+    "id": 211,
+    "nível": "fácil",
+    "texto": "O servidor atrasa documento para ajudar um amigo.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 212,
+    "nível": "médio",
+    "texto": "O funcionário demora indevidamente a emitir documento oficial para favorecer pessoa próxima.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 213,
+    "nível": "difícil",
+    "texto": "O agente estatal posterga injustificadamente ato administrativo vinculado, buscando satisfazer interesse pessoal relacionado a terceiro próximo.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 214,
+    "nível": "fácil",
+    "texto": "O servidor não faz obrigação do cargo para prejudicar alguém de quem não gosta.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 215,
+    "nível": "médio",
+    "texto": "O funcionário deixa de cumprir ato obrigatório para atingir desafeto pessoal.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 216,
+    "nível": "difícil",
+    "texto": "Movido por animosidade subjetiva, o agente público omite indevidamente providência funcional legalmente exigida.",
+    "classe_correta": "prevaricacao"
+  }
+]

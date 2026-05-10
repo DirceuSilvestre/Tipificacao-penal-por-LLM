@@ -1,0 +1,38 @@
+[
+  {
+    "id": 349,
+    "nível": "fácil",
+    "texto": "O servidor manda processo para setor errado.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 350,
+    "nível": "médio",
+    "texto": "O funcionário encaminha processo administrativo incorretamente por erro material.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 351,
+    "nível": "difícil",
+    "texto": "Por equívoco operacional, o agente público direciona procedimento à unidade inadequada, sem intenção de interferir no resultado.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 352,
+    "nível": "fácil",
+    "texto": "O servidor esquece reunião importante.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 353,
+    "nível": "médio",
+    "texto": "O funcionário não comparece a reunião institucional por esquecimento.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 354,
+    "nível": "difícil",
+    "texto": "Sem qualquer finalidade ilícita, o agente público deixa de participar de compromisso funcional por falha de memória.",
+    "classe_correta": "nao_se_enquadra"
+  }
+]

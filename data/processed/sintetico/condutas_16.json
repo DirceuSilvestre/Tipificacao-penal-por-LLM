@@ -1,0 +1,38 @@
+[
+  {
+    "id": 91,
+    "nível": "fácil",
+    "texto": "O servidor, por descuido, deixa outra pessoa acessar dinheiro público e essa pessoa pega o dinheiro.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 92,
+    "nível": "médio",
+    "texto": "O funcionário público, por negligência, permite que terceiros tenham acesso indevido a valores sob sua guarda, possibilitando sua subtração.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 93,
+    "nível": "difícil",
+    "texto": "O agente estatal, por omissão negligente no dever de vigilância, viabiliza o acesso indevido de terceiros a valores públicos, contribuindo culposamente para sua subtração.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 94,
+    "nível": "fácil",
+    "texto": "O servidor não cuida corretamente de bens públicos e outra pessoa se apropria deles.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 95,
+    "nível": "médio",
+    "texto": "O funcionário, por negligência na proteção de bens públicos, facilita sua apropriação por terceiros.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 96,
+    "nível": "difícil",
+    "texto": "O agente público, ao descumprir deveres de guarda por negligência, possibilita que terceiros incorporem bens públicos indevidamente.",
+    "classe_correta": "peculato_culposo"
+  }
+]

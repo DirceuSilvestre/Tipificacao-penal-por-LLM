@@ -1,0 +1,38 @@
+[
+  {
+    "id": 313,
+    "nível": "fácil",
+    "texto": "O servidor passa sua senha do sistema para outra pessoa.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 314,
+    "nível": "médio",
+    "texto": "O funcionário fornece credencial de acesso a sistema público a terceiro, permitindo acesso indevido.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 315,
+    "nível": "difícil",
+    "texto": "Ao compartilhar elementos de autenticação institucional, o agente público possibilita ingresso indevido em base de dados administrativa.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 316,
+    "nível": "fácil",
+    "texto": "O servidor empresta login do trabalho para alguém acessar dados.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 317,
+    "nível": "médio",
+    "texto": "O agente disponibiliza suas credenciais institucionais a pessoa não autorizada.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 318,
+    "nível": "difícil",
+    "texto": "Mediante cessão de meios de autenticação, o funcionário viabiliza consulta indevida a informações protegidas do sistema público.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  }
+]

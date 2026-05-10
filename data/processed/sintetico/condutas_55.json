@@ -1,0 +1,38 @@
+[
+  {
+    "id": 325,
+    "nível": "fácil",
+    "texto": "O servidor deixa outra pessoa acessar sistema protegido sem impedir.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 326,
+    "nível": "médio",
+    "texto": "O agente, por omissão, permite acesso indevido de terceiro a sistema com dados sigilosos.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 327,
+    "nível": "difícil",
+    "texto": "Ao se abster de impedir ingresso não autorizado, o funcionário concorre para violação de sistema protegido contendo informações restritas.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 328,
+    "nível": "fácil",
+    "texto": "O servidor compartilha segredo do trabalho com colega sem autorização.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 329,
+    "nível": "médio",
+    "texto": "O funcionário divulga informação sigilosa a outro servidor sem permissão e fora das atribuições.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 330,
+    "nível": "difícil",
+    "texto": "Em desvio das normas de sigilo institucional, o agente público transmite conteúdo reservado a colega sem competência para acessá-lo.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  }
+]

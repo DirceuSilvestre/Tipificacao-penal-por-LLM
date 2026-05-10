@@ -1,0 +1,38 @@
+[
+  {
+    "id": 271,
+    "nível": "fácil",
+    "texto": "O servidor usa o cargo para ajudar pedido de um amigo no órgão público.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 272,
+    "nível": "médio",
+    "texto": "O funcionário utiliza sua posição pública para defender interesse particular perante repartição.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 273,
+    "nível": "difícil",
+    "texto": "Valendo-se da autoridade inerente ao cargo, o agente estatal patrocina pretensão privada de terceiro perante a Administração.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 274,
+    "nível": "fácil",
+    "texto": "O servidor fala com colegas para ajudar processo de um familiar.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 275,
+    "nível": "médio",
+    "texto": "O agente intervém junto ao setor para favorecer interesse privado de parente.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 276,
+    "nível": "difícil",
+    "texto": "Mediante influência funcional interna, o funcionário mobiliza agentes administrativos em prol de demanda privada familiar.",
+    "classe_correta": "advocacia_administrativa"
+  }
+]

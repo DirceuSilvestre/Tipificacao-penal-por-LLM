@@ -1,0 +1,38 @@
+[
+  {
+    "id": 223,
+    "nível": "fácil",
+    "texto": "O servidor não abre procedimento obrigatório para proteger seu próprio interesse financeiro.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 224,
+    "nível": "médio",
+    "texto": "O funcionário deixa de instaurar processo exigido para preservar vantagem econômica pessoal.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 225,
+    "nível": "difícil",
+    "texto": "Com finalidade de resguardar benefício patrimonial próprio, o agente omite providência funcional legalmente imposta.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 226,
+    "nível": "fácil",
+    "texto": "O servidor autoriza algo proibido porque queria favorecer alguém de sua preferência.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 227,
+    "nível": "médio",
+    "texto": "O agente concede medida vedada em lei para atender interesse pessoal.",
+    "classe_correta": "prevaricacao"
+  },
+  {
+    "id": 228,
+    "nível": "difícil",
+    "texto": "Desconsiderando proibição normativa expressa, o funcionário pratica ato administrativo ilícito para satisfação de conveniência subjetiva.",
+    "classe_correta": "prevaricacao"
+  }
+]

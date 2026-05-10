@@ -1,0 +1,38 @@
+[
+  {
+    "id": 331,
+    "nível": "fácil",
+    "texto": "O servidor esquece de responder e-mail do trabalho.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 332,
+    "nível": "médio",
+    "texto": "O funcionário deixa de responder e-mail institucional no prazo por descuido.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 333,
+    "nível": "difícil",
+    "texto": "Sem qualquer finalidade ilícita, o agente público omite resposta a comunicação oficial por falha organizacional.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 334,
+    "nível": "fácil",
+    "texto": "O servidor atende devagar por desorganização.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 335,
+    "nível": "médio",
+    "texto": "O funcionário presta atendimento lento ao público sem intenção de favorecer ou prejudicar.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 336,
+    "nível": "difícil",
+    "texto": "Em razão de deficiência organizacional pessoal, o agente realiza atendimento administrativo sem eficiência, sem finalidade ilícita.",
+    "classe_correta": "nao_se_enquadra"
+  }
+]

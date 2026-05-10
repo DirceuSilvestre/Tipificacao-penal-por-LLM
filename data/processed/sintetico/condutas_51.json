@@ -1,0 +1,38 @@
+[
+  {
+    "id": 301,
+    "nível": "fácil",
+    "texto": "O servidor conta um segredo do trabalho para outra pessoa.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 302,
+    "nível": "médio",
+    "texto": "O funcionário revela informação sigilosa obtida no cargo a terceiro não autorizado.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 303,
+    "nível": "difícil",
+    "texto": "Ciente do caráter reservado da informação adquirida no exercício funcional, o agente público a divulga a destinatário sem autorização.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 304,
+    "nível": "fácil",
+    "texto": "O servidor mostra dados de processo para quem não podia ver.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 305,
+    "nível": "médio",
+    "texto": "O agente divulga dados restritos de procedimento administrativo a pessoa não autorizada.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 306,
+    "nível": "difícil",
+    "texto": "Valendo-se do conhecimento funcional, o funcionário torna acessível a terceiro conteúdo protegido de processo administrativo.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  }
+]

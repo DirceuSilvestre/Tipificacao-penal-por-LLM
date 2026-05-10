@@ -1,0 +1,38 @@
+[
+  {
+    "id": 337,
+    "nível": "fácil",
+    "texto": "O servidor entende errado uma regra e decide assim.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 338,
+    "nível": "médio",
+    "texto": "O funcionário interpreta equivocadamente norma administrativa ao decidir processo.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 339,
+    "nível": "difícil",
+    "texto": "O agente público, por erro interpretativo, aplica incorretamente disposição normativa sem intenção de desvio funcional.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 340,
+    "nível": "fácil",
+    "texto": "O servidor perde documento por descuido.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 341,
+    "nível": "médio",
+    "texto": "O funcionário extravia documento administrativo sem intenção de ocultação.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 342,
+    "nível": "difícil",
+    "texto": "Por falha de cautela, o agente público perde documento sob sua guarda, sem propósito de vantagem ou prejuízo deliberado.",
+    "classe_correta": "nao_se_enquadra"
+  }
+]

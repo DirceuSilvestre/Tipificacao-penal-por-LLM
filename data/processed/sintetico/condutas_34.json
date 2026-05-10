@@ -1,0 +1,38 @@
+[
+  {
+    "id": 199,
+    "nível": "fácil",
+    "texto": "O servidor pede pagamentos todo mês para continuar ajudando alguém.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 200,
+    "nível": "médio",
+    "texto": "O agente solicita prestações periódicas indevidas para manter favorecimento administrativo.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 201,
+    "nível": "difícil",
+    "texto": "O funcionário estabelece exigências patrimoniais reiteradas, sob forma de solicitações sucessivas, para preservar tratamento estatal privilegiado.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 202,
+    "nível": "fácil",
+    "texto": "O servidor recebe vantagem por outra pessoa para favorecer alguém.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 203,
+    "nível": "médio",
+    "texto": "O agente recebe utilidade indevida por intermediário em troca de favorecimento funcional.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 204,
+    "nível": "difícil",
+    "texto": "Por meio de interposta pessoa, o funcionário percebe benefício econômico ilícito correlacionado ao exercício de atribuições públicas.",
+    "classe_correta": "corrupcao_passiva"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 205,
+    "nível": "fácil",
+    "texto": "O servidor pede dinheiro para atrasar uma fiscalização.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 206,
+    "nível": "médio",
+    "texto": "O agente solicita valor indevido para retardar ato oficial de fiscalização.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 207,
+    "nível": "difícil",
+    "texto": "O funcionário condiciona a tempestividade da atividade fiscalizatória ao recebimento de vantagem patrimonial ilícita.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 208,
+    "nível": "fácil",
+    "texto": "O servidor recebe dinheiro para fazer algo proibido no cargo.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 209,
+    "nível": "médio",
+    "texto": "O agente público recebe vantagem indevida para praticar ato funcional contra dever legal.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 210,
+    "nível": "difícil",
+    "texto": "Mediante percepção de utilidade econômica ilícita, o funcionário executa conduta administrativa incompatível com os deveres inerentes ao cargo.",
+    "classe_correta": "corrupcao_passiva"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 169,
+    "nível": "fácil",
+    "texto": "O servidor manda empresário pagar todo mês para continuar funcionando.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 170,
+    "nível": "médio",
+    "texto": "O agente exige pagamentos periódicos indevidos para permitir atividade econômica regular.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 171,
+    "nível": "difícil",
+    "texto": "Mediante coerção derivada da autoridade estatal, o funcionário impõe prestações mensais ilícitas como condição para continuidade empresarial.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 172,
+    "nível": "fácil",
+    "texto": "O servidor exige algo de valor para não aplicar multa.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 173,
+    "nível": "médio",
+    "texto": "O funcionário exige vantagem patrimonial para deixar de aplicar sanção administrativa.",
+    "classe_correta": "concussao"
+  },
+  {
+    "id": 174,
+    "nível": "difícil",
+    "texto": "Abusando do poder sancionador, o agente público impõe entrega de utilidade econômica como preço para omissão punitiva.",
+    "classe_correta": "concussao"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 193,
+    "nível": "fácil",
+    "texto": "Mesmo fora do trabalho, o servidor recebe dinheiro por causa do cargo.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 194,
+    "nível": "médio",
+    "texto": "Fora do expediente, o agente recebe vantagem indevida em razão da função pública.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 195,
+    "nível": "difícil",
+    "texto": "Embora ausente do exercício imediato das atividades, o funcionário percebe benefício ilícito decorrente da autoridade inerente ao cargo.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 196,
+    "nível": "fácil",
+    "texto": "Antes de assumir o cargo, a pessoa aceita promessa de dinheiro pelo futuro trabalho.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 197,
+    "nível": "médio",
+    "texto": "Nomeado para função pública, o agente aceita promessa de vantagem indevida antes da posse.Fora do expediente, o agente recebe vantagem indevida em razão da função pública.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 198,
+    "nível": "difícil",
+    "texto": "Ainda não investido formalmente, o futuro servidor consente em receber benefício patrimonial ilícito vinculado à atuação funcional futura.",
+    "classe_correta": "corrupcao_passiva"
+  }
+]

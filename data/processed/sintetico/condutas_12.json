@@ -1,0 +1,38 @@
+[
+  {
+    "id": 67,
+    "nível": "fácil",
+    "texto": "O servidor usa dinheiro público para outra finalidade para se beneficiar.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 68,
+    "nível": "médio",
+    "texto": "O funcionário altera a destinação de recursos públicos sob sua posse para obter vantagem pessoal.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 69,
+    "nível": "difícil",
+    "texto": "O agente público redireciona valores estatais sob sua administração para finalidade diversa, com intuito de benefício próprio.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 70,
+    "nível": "fácil",
+    "texto": "O servidor desvia um bem de outra pessoa que estava sob sua responsabilidade no cargo para beneficiar alguém.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 71,
+    "nível": "médio",
+    "texto": "O funcionário modifica a destinação de um bem particular sob sua guarda funcional em favor de terceiro.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 72,
+    "nível": "difícil",
+    "texto": "O agente público altera a finalidade de uso de bem móvel privado sob sua custódia institucional para favorecer terceiro.",
+    "classe_correta": "peculato"
+  }
+]

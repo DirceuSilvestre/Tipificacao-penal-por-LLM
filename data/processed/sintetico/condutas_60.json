@@ -1,0 +1,38 @@
+[
+  {
+    "id": 355,
+    "nível": "fácil",
+    "texto": "O servidor trabalha de forma ineficiente.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 356,
+    "nível": "médio",
+    "texto": "O funcionário executa tarefa administrativa com baixa eficiência, sem violar normas intencionalmente.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 357,
+    "nível": "difícil",
+    "texto": "O agente público realiza atividade funcional com desempenho aquém do esperado, sem intenção de descumprimento deliberado de dever legal.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 358,
+    "nível": "fácil",
+    "texto": "O servidor demora a atualizar sistema por dificuldade.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 359,
+    "nível": "médio",
+    "texto": "O funcionário atrasa atualização de sistema interno por limitação técnica.",
+    "classe_correta": "nao_se_enquadra"
+  },
+  {
+    "id": 360,
+    "nível": "difícil",
+    "texto": "Diante de limitações operacionais, o agente público posterga atualização de sistema institucional sem finalidade de prejuízo ou vantagem indevida.",
+    "classe_correta": "nao_se_enquadra"
+  }
+]

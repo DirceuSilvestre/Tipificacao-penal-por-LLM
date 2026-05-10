@@ -1,0 +1,38 @@
+[
+  {
+    "id": 127,
+    "nível": "fácil",
+    "texto": "Um cidadão deposita dinheiro por engano, e o servidor fica com a quantia.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 128,
+    "nível": "médio",
+    "texto": "O agente público recebe depósito equivocado relacionado ao cargo e se apropria dos valores recebidos.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 129,
+    "nível": "difícil",
+    "texto": "Recebida transferência monetária indevida por erro material de particular em contexto funcional, o servidor, ciente da irregularidade, retém o numerário.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 130,
+    "nível": "fácil",
+    "texto": "Uma pessoa entrega objeto valioso por engano ao funcionário, e ele fica com o item.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 131,
+    "nível": "médio",
+    "texto": "O servidor recebe bem de valor entregue equivocadamente por usuário do serviço e o toma para si.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 132,
+    "nível": "difícil",
+    "texto": "O agente administrativo, ao receber utilidade patrimonial entregue indevidamente por administrado, decide incorporá-la ao patrimônio particular.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  }
+]

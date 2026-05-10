@@ -1,0 +1,38 @@
+[
+  {
+    "id": 187,
+    "nível": "fácil",
+    "texto": "O servidor aceita promessa de pagamento para ajudar outra pessoa.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 188,
+    "nível": "médio",
+    "texto": "O funcionário aceita futura vantagem indevida para beneficiar terceiro em ato funcional.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 189,
+    "nível": "difícil",
+    "texto": "O agente público anui ao oferecimento futuro de utilidade patrimonial ilícita em troca de favorecimento administrativo destinado a outrem.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 190,
+    "nível": "fácil",
+    "texto": "O funcionário pede um bem valioso para acelerar atendimento.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 191,
+    "nível": "médio",
+    "texto": "O servidor solicita bem de valor para dar rapidez a serviço público.",
+    "classe_correta": "corrupcao_passiva"
+  },
+  {
+    "id": 192,
+    "nível": "difícil",
+    "texto": "Valendo-se da posição funcional, o agente requer utilidade patrimonial como preço indevido para priorização de atendimento estatal.",
+    "classe_correta": "corrupcao_passiva"
+  }
+]

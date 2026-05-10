@@ -1,0 +1,38 @@
+[
+  {
+    "id": 79,
+    "nível": "fácil",
+    "texto": "O servidor ajuda alguém a pegar dinheiro público para benefício próprio.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 80,
+    "nível": "médio",
+    "texto": "O funcionário colabora para a retirada de recursos públicos, usando sua função para obter vantagem pessoal.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 81,
+    "nível": "difícil",
+    "texto": "O agente estatal atua em cooperação para viabilizar a subtração de valores públicos, explorando as condições funcionais para proveito próprio.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 82,
+    "nível": "fácil",
+    "texto": "O servidor ajuda alguém a pegar um bem de outra pessoa.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 83,
+    "nível": "médio",
+    "texto": "O funcionário público contribui para a subtração de bem privado utilizando sua posição funcional.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 84,
+    "nível": "difícil",
+    "texto": "O agente concorre para a retirada indevida de bem móvel de particular, valendo-se das prerrogativas inerentes ao cargo para beneficiar terceiro.",
+    "classe_correta": "peculato"
+  }
+]

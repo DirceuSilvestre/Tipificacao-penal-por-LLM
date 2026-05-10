@@ -1,0 +1,38 @@
+[
+  {
+    "id": 85,
+    "nível": "fácil",
+    "texto": "O servidor usa dinheiro público para beneficiar outra pessoa.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 86,
+    "nível": "médio",
+    "texto": "O funcionário direciona recursos públicos sob sua posse para favorecer terceiros.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 87,
+    "nível": "difícil",
+    "texto": "O agente público altera a destinação de valores estatais sob sua guarda institucional com intuito de beneficiar outrem.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 88,
+    "nível": "fácil",
+    "texto": "O servidor fica com um bem de outra pessoa que estava sob sua responsabilidade.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 89,
+    "nível": "médio",
+    "texto": "O funcionário público toma para si bem privado sob sua custódia funcional.",
+    "classe_correta": "peculato"
+  },
+  {
+    "id": 90,
+    "nível": "difícil",
+    "texto": "O agente estatal incorpora ao próprio patrimônio bem móvel de titularidade privada cuja guarda decorria de atribuição do cargo.",
+    "classe_correta": "peculato"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 115,
+    "nível": "fácil",
+    "texto": "O servidor deixa alguém acessar um bem público e essa pessoa o pega.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 116,
+    "nível": "médio",
+    "texto": "O funcionário, por negligência, não impede acesso indevido a bem público, facilitando sua subtração.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 117,
+    "nível": "difícil",
+    "texto": "O agente público, ao falhar no dever de impedir acessos indevidos, concorre culposamente para a subtração de bem público.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 118,
+    "nível": "fácil",
+    "texto": "O servidor guarda mal dinheiro público e outra pessoa fica com ele.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 119,
+    "nível": "médio",
+    "texto": "O funcionário, por imprudência na guarda de valores públicos, permite sua apropriação por terceiros.",
+    "classe_correta": "peculato_culposo"
+  },
+  {
+    "id": 120,
+    "nível": "difícil",
+    "texto": "O agente estatal, mediante falha imprudente na custódia de valores públicos, possibilita sua apropriação por terceiros.",
+    "classe_correta": "peculato_culposo"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": 295,
+    "nível": "fácil",
+    "texto": "O servidor pede prioridade para processo de interesse do vizinho.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 296,
+    "nível": "médio",
+    "texto": "O agente solicita tratamento prioritário interno para demanda administrativa privada de terceiro.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 297,
+    "nível": "difícil",
+    "texto": "Valendo-se da qualidade funcional, o funcionário busca alterar a ordem procedimental em benefício de interesse particular alheio.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 298,
+    "nível": "fácil",
+    "texto": "O servidor usa o cargo para defender pedido privado de outra pessoa no órgão público.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 299,
+    "nível": "médio",
+    "texto": "O funcionário vale-se da função para sustentar pretensão particular perante órgão estatal.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 300,
+    "nível": "difícil",
+    "texto": "Com fundamento no prestígio institucional do cargo, o agente público patrocina demanda privada submetida à apreciação administrativa.",
+    "classe_correta": "advocacia_administrativa"
+  }
+]

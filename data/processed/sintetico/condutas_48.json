@@ -1,0 +1,38 @@
+[
+  {
+    "id": 283,
+    "nível": "fácil",
+    "texto": "O servidor ajuda comerciante em licença pública usando o cargo.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 284,
+    "nível": "médio",
+    "texto": "O agente atua informalmente para beneficiar comerciante em procedimento de licenciamento.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 285,
+    "nível": "difícil",
+    "texto": "Valendo-se da condição funcional, o funcionário patrocina interesse econômico privado em trâmite autorizativo estatal.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 286,
+    "nível": "fácil",
+    "texto": "O servidor usa o cargo para conseguir documento indevido para outra pessoa.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 287,
+    "nível": "médio",
+    "texto": "O agente patrocina interesse privado ilegítimo buscando liberação documental irregular.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 288,
+    "nível": "difícil",
+    "texto": "Utilizando ascendência institucional, o funcionário sustenta pretensão privada manifestamente ilegítima perante a Administração.",
+    "classe_correta": "advocacia_administrativa"
+  }
+]

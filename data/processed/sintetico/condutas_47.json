@@ -1,0 +1,38 @@
+[
+  {
+    "id": 277,
+    "nível": "fácil",
+    "texto": "O servidor usa o cargo para encaminhar pedido de empresa privada.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 278,
+    "nível": "médio",
+    "texto": "O funcionário promove internamente demanda empresarial particular aproveitando-se da função.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 279,
+    "nível": "difícil",
+    "texto": "Explorando prerrogativas institucionais, o agente impulsiona interesse corporativo privado perante a estrutura administrativa.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 280,
+    "nível": "fácil",
+    "texto": "O servidor usa sua influência para acelerar pedido de particular.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 281,
+    "nível": "médio",
+    "texto": "O funcionário emprega prestígio funcional para dar rapidez a requerimento privado.",
+    "classe_correta": "advocacia_administrativa"
+  },
+  {
+    "id": 282,
+    "nível": "difícil",
+    "texto": "Com abuso da posição administrativa, o agente interfere no fluxo burocrático para priorizar pretensão particular.",
+    "classe_correta": "advocacia_administrativa"
+  }
+]

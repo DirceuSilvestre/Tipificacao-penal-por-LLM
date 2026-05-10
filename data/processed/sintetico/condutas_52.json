@@ -1,0 +1,38 @@
+[
+  {
+    "id": 307,
+    "nível": "fácil",
+    "texto": "O servidor ajuda outra pessoa a ter acesso a informação secreta do trabalho.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 308,
+    "nível": "médio",
+    "texto": "O agente facilita a divulgação de informação sigilosa obtida no cargo.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 309,
+    "nível": "difícil",
+    "texto": "Mediante conduta facilitadora, o funcionário viabiliza a exposição indevida de conteúdo protegido sob sua esfera funcional.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 310,
+    "nível": "fácil",
+    "texto": "O servidor deixa alguém ver documento secreto do trabalho.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 311,
+    "nível": "médio",
+    "texto": "O funcionário permite acesso visual a documento sigiloso por pessoa não autorizada.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  },
+  {
+    "id": 312,
+    "nível": "difícil",
+    "texto": "Descumprindo dever de guarda, o agente público consente na fruição indevida de documento reservado por terceiro.",
+    "classe_correta": "violacao_de_sigilo_funcional"
+  }
+]

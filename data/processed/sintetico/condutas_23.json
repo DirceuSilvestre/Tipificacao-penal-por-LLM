@@ -1,0 +1,38 @@
+[
+  {
+    "id": 133,
+    "nível": "fácil",
+    "texto": "O cidadão paga duas vezes sem querer, e o servidor guarda o valor extra.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 134,
+    "nível": "médio",
+    "texto": "O funcionário recebe pagamento duplicado por erro de terceiro e retém conscientemente a diferença.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 135,
+    "nível": "difícil",
+    "texto": "Em razão de pagamento excedente decorrente de equívoco do administrado, o agente público apropria-se dolosamente da parcela indevida.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 136,
+    "nível": "fácil",
+    "texto": "O servidor recebe benefício enviado por engano e fica com ele.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 137,
+    "nível": "médio",
+    "texto": "O agente recebe vantagem econômica remetida equivocadamente e decide não devolver.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  },
+  {
+    "id": 138,
+    "nível": "difícil",
+    "texto": "Obtida utilidade econômica por erro de terceiro no exercício funcional, o funcionário opta por incorporá-la indevidamente ao patrimônio próprio.",
+    "classe_correta": "peculato_mediante_erro_de_outrem"
+  }
+]

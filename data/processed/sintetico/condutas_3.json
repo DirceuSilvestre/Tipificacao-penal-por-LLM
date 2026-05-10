@@ -1,0 +1,38 @@
+[
+  {
+   "id": 13,
+   "nível": "fácil",
+   "texto": "O servidor pega dinheiro público sem ter acesso direto, usando sua função.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 14,
+   "nível": "médio",
+   "texto": "O funcionário público retira valores públicos sem posse prévia, aproveitando-se das facilidades do cargo.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 15,
+   "nível": "difícil",
+   "texto": "O agente, embora destituído de posse imediata, obtém valores públicos mediante exploração das prerrogativas inerentes à função.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 16,
+   "nível": "fácil",
+   "texto": "O servidor ajuda a retirar dinheiro de alguém usando seu cargo.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 17,
+   "nível": "médio",
+   "texto": "O funcionário subtrai valores privados sem posse direta, utilizando-se de vantagens da função, em favor de terceiro.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 18,
+   "nível": "difícil",
+   "texto": "O agente público, sem detenção prévia do bem, promove sua retirada indevida valendo-se das facilidades institucionais, beneficiando outrem.",
+   "classe_correta": "peculato"
+  }
+]

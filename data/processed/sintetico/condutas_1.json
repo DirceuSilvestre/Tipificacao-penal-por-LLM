@@ -1,0 +1,38 @@
+[
+  {
+   "id": 1,
+   "nível": "fácil",
+   "texto": "O servidor pega para si dinheiro público que estava sob sua responsabilidade no trabalho.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 2,
+   "nível": "médio",
+   "texto": "O funcionário público utiliza para si recursos financeiros públicos que estavam sob sua guarda funcional.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 3,
+   "nível": "difícil",
+   "texto": "O agente estatal incorpora ao seu patrimônio valores públicos cuja disponibilidade decorria diretamente das atribuições do cargo.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 4,
+   "nível": "fácil",
+   "texto": "O servidor entrega a outra pessoa um valor de um particular que estava sob sua guarda.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 5,
+   "nível": "médio",
+   "texto": "O funcionário público destina a terceiro quantia pertencente a particular que estava sob sua responsabilidade funcional.",
+   "classe_correta": "peculato"
+  },
+  {
+   "id": 6,
+   "nível": "difícil",
+   "texto": "O agente, investido em função pública, transfere a outrem valores privados cuja custódia lhe fora confiada institucionalmente.",
+   "classe_correta": "peculato"
+  }
+]
