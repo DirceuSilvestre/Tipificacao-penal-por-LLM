@@ -77,13 +77,22 @@ def main():
         logger.debug("Obtendo caminhos dos arquivos de entrada...")
         caminhos_arquivos = obter_caminhos_arquivos_entrada(TIPO_DATASET)
 
-        "ja sabemos que esta retornando corretamente os caminhos dos arquivos de entrada"
-        "agora precisamos fazer o processamento de tipificação para cada caminho de arquivo contido na variavel caminhos_arquivos"
-
     except Exception as e:
         # Captura qualquer outro erro (banco de dados, memória, etc.)
         logger.critical(f"Ocorreu um erro inesperado: {e}")
         sys.exit(1)
+
+    "ja sabemos que esta retornando corretamente os caminhos dos arquivos de entrada"
+    "agora precisamos fazer o processamento de tipificação para cada caminho de arquivo contido na variavel caminhos_arquivos"
+
+    """
+    primeiro de tudo faz a conexão com a LLM (se der erro avisa, trata e sai do programa)
+    Para cada caminho de arquivo, verificar se há o checkpoint de processamento
+    se existe e status completo, então pula o processamento e passa para o próximo arquivo
+    se existe e processando entao continua a partir do proximo_indice
+    se não houver o checkpoint, então cria, preenche com as informações
+    
+    """
 
     logger.info("Se esta mensagem esta sendo exibida então o código funcionou corretamente!")
 
