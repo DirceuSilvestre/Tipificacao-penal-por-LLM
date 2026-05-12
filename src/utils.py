@@ -37,3 +37,36 @@ def obter_caminhos_arquivos_entrada(tipo: str) -> list[Path]:
         raise FileNotFoundError(msg_erro)
     
     return caminhos_arquivos
+
+def obter_numero_arquivo(caminho_arquivo: Path) -> str:
+    """
+    Extrai o número do arquivo condutas_X.json
+    
+    Exemplo:
+        condutas_5.json → "5"
+        condutas_123.json → "123"
+    """
+    nome = caminho_arquivo.stem  # Remove a extensão
+    numero = nome.replace("condutas_", "")  # Remove o prefixo
+    return numero
+
+def criar_checkpoint_inicial(caminho_arquivo: Path):
+    """
+    Cria um checkpoint inicial para o arquivo a ser processado.
+
+    Args:
+        caminho_arquivo: Path do arquivo para o qual criar o checkpoint
+
+    Returns:
+        Dicionário representando o checkpoint inicial
+    """
+    checkpoint = {
+        "arquivo": caminho_arquivo.name,
+        "status": "processando",
+        "timestamp_inicio": "timestamp",
+        "timestamp_ultima_atualizacao": "",
+        "total_itens": 0,
+        "itens_processados": 0,
+        "proximo_indice": 0,
+        "erros_encontrados": []
+    }
