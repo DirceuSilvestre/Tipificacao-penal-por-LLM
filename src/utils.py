@@ -1,7 +1,9 @@
 # import de bibliotecas
+import json
 import logging
 from glob import glob
 from pathlib import Path
+from datetime import datetime
 
 # import de constantes e funções de outros arquivos
 from config import DATASET_TYPES, PROCESSED_DATA_DIR
@@ -61,12 +63,24 @@ def criar_checkpoint_inicial(caminho_arquivo: Path):
         Dicionário representando o checkpoint inicial
     """
     checkpoint = {
-        "arquivo": caminho_arquivo.name,
+        "arquivo_referente": caminho_arquivo.name,
         "status": "processando",
-        "timestamp_inicio": "timestamp",
-        "timestamp_ultima_atualizacao": "",
+        "timestamp_inicio": datetime.now().isoformat(),
+        "timestamp_ultima_atualizacao": datetime.now().isoformat(),
         "total_itens": 0,
         "itens_processados": 0,
         "proximo_indice": 0,
         "erros_encontrados": []
     }
+
+def salvar_checkpoint(caminho_checkpoint: Path, checkpoint: dict):
+    """
+    Salva o checkpoint em um arquivo JSON.
+
+    Args:
+        caminho_checkpoint: Path onde o checkpoint deve ser salvo
+        checkpoint: Dicionário do checkpoint a ser salvo
+    """
+    
+    with open(caminho_checkpoint, "w", encoding="utf-8") as f:
+        json.dump(checkpoint, f, ensure_ascii=False, indent=4)
