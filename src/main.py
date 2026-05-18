@@ -50,10 +50,12 @@ from typing import Final
 # import das funções de outros arquivos
 
 from utils import obter_caminhos_arquivos_entrada
+from criminalization import processar_arquivos
+from config import TIPO_DATASET
 
 # Configuração de Logging
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
     encoding='utf-8',
     handlers=[
@@ -62,10 +64,6 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
-
-# constante
-
-TIPO_DATASET: Final[str] = "sintetico"  # Alterar para "sintetico" ou "curado" conforme necessário
 
 # pipeline
 
@@ -76,6 +74,8 @@ def main():
 
         logger.debug("Obtendo caminhos dos arquivos de entrada...")
         caminhos_arquivos = obter_caminhos_arquivos_entrada(TIPO_DATASET)
+
+        processar_arquivos(caminhos_arquivos)
 
     except Exception as e:
         # Captura qualquer outro erro (banco de dados, memória, etc.)
