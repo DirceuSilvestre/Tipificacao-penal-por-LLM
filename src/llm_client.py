@@ -81,3 +81,4 @@ class GeminiClient:
         except Exception as e:
             logger.error(f"Erro ao gerar conteúdo com modelo {LLM_MODEL}: {e}")
             raise LLMClientError(f"Falha ao gerar conteúdo: {e}")
+        
