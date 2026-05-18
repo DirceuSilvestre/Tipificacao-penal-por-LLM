@@ -95,8 +95,6 @@ def main():
 
     """
         CONTINUACAO DA PROGRAMACAO:
-        terminar a programação da funcao criar_checkpoint_inicial, e salvar o arquivo de checkpoint na pasta onde esta o arquivo que sera processado
-        continuar a programação da funcao processar_arquivos com a lógica correta
         continuar a programação da funcao processar_arquivo_unico utilizando o conteudo do checkpoint dentro da lógica para controlar cada tipificacao de cada conduta do arquivo que esta sendo processado
         fazer a programação do salvamento das condutas tipificadas do arquivo que acabou de ser processado em um arquivo de saída seguindo o padrão 'respostas_llmX.json' onde X é o número do arquivo de entrada processado e modificar o status do checkpoint para completo
     """

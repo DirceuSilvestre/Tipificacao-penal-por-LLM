@@ -8,6 +8,8 @@ from datetime import datetime
 # import de constantes e funções de outros arquivos
 from config import DATASET_TYPES, PROCESSED_DATA_DIR
 
+logger = logging.getLogger(__name__)
+
 def obter_caminhos_arquivos_entrada(tipo: str) -> list[Path]:
     """
     Descobre automaticamente os arquivos de entrada usando glob.
@@ -64,14 +66,13 @@ def criar_checkpoint_inicial(caminho_arquivo: Path):
     """
     checkpoint = {
         "arquivo_referente": caminho_arquivo.name,
-        "status": "processando",
         "timestamp_inicio": datetime.now().isoformat(),
         "timestamp_ultima_atualizacao": datetime.now().isoformat(),
-        "total_itens": 0,
-        "itens_processados": 0,
+        "total_itens": 6,
         "proximo_indice": 0,
         "erros_encontrados": []
     }
+    return checkpoint
 
 def salvar_checkpoint(caminho_checkpoint: Path, checkpoint: dict):
     """
@@ -84,3 +85,33 @@ def salvar_checkpoint(caminho_checkpoint: Path, checkpoint: dict):
     
     with open(caminho_checkpoint, "w", encoding="utf-8") as f:
         json.dump(checkpoint, f, ensure_ascii=False, indent=4)
+
+def limpar_converter_texto(texto: str) -> dict:
+    """
+    Remove marcadores de bloco de código e converte texto JSON para dicionário.
+
+    Esta função remove marcadores como ```json e ``` que frequentemente
+    aparecem em respostas de modelos LLM, deixando o JSON puro para
+    desserialização.
+
+    Args:
+        texto: Texto com possíveis marcadores de código JSON
+
+    Returns:
+        Dicionário desserializado do texto JSON limpo
+
+    Raises:
+        json.JSONDecodeError: Se o texto limpo não contiver JSON válido
+    """
+    try:
+        # Remover marcadores de bloco de código
+        texto_limpo = texto.replace("```json", "").replace("```", "").strip()
+        
+        logger.debug("Convertendo texto para JSON")
+        texto_json = json.loads(texto_limpo)
+        
+        return texto_json
+    except json.JSONDecodeError as e:
+        logger.error(f"Erro ao converter texto para JSON: {e}")
+        logger.error(f"Texto original: {texto}")
+        raise
