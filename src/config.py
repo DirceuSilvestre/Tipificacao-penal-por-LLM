@@ -36,3 +36,4 @@ LLM_ARCHIVE_DELAY_SECONDS: Final[int] = 60  # Delay entre requisições para evi
 # Tipos de Dataset
 # ============================================================================
 DATASET_TYPES: Final[list[str]] = ["curado", "sintetico"]
+TIPO_DATASET: Final[str] = "sintetico"  # Alterar para "sintetico" ou "curado" conforme necessário
