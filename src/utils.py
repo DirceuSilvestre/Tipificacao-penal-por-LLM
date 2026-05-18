@@ -6,7 +6,7 @@ from pathlib import Path
 from datetime import datetime
 
 # import de constantes e funções de outros arquivos
-from config import DATASET_TYPES, PROCESSED_DATA_DIR
+from config import DATASET_TYPES, PROCESSED_DATA_DIR, TIPIFICADOS_DATA_DIR
 
 logger = logging.getLogger(__name__)
 
@@ -33,7 +33,7 @@ def obter_caminhos_arquivos_entrada(tipo: str) -> list[Path]:
         raise ValueError(msg_erro)
     
     padrão = str(PROCESSED_DATA_DIR / tipo / "condutas_*.json")
-    caminhos_arquivos = sorted([Path(f) for f in glob(padrão)])
+    caminhos_arquivos = [Path(f) for f in glob(padrão)]
     
     if not caminhos_arquivos:
         msg_erro = f"Nenhum arquivo de entrada encontrado para tipo '{tipo}' no padrão: {padrão}"
@@ -52,7 +52,7 @@ def obter_numero_arquivo(caminho_arquivo: Path) -> str:
     """
     nome = caminho_arquivo.stem  # Remove a extensão
     numero = nome.replace("condutas_", "")  # Remove o prefixo
-    return numero
+    return int(numero)
 
 def criar_checkpoint_inicial(caminho_arquivo: Path):
     """
@@ -115,3 +115,18 @@ def limpar_converter_texto(texto: str) -> dict:
         logger.error(f"Erro ao converter texto para JSON: {e}")
         logger.error(f"Texto original: {texto}")
         raise
+
+def salvar_respostas(tipo_dataset: str, respostas: list[dict], numero: int):
+    """
+    Salva as respostas tipificadas em um arquivo JSON.
+
+    Args:
+        tipo_dataset: Tipo do dataset ('curado' ou 'sintetico')
+        respostas: Lista de dicionários contendo as respostas tipificadas
+        numero: Número do arquivo de respostas para montar o caminho
+    """
+
+    caminho_saida = str(TIPIFICADOS_DATA_DIR / tipo_dataset / f"respostas_llm_{numero}.json")
+
+    with open(caminho_saida, "w", encoding="utf-8") as f:
+        json.dump(respostas, f, ensure_ascii=False, indent=4)
