@@ -8,11 +8,10 @@ import time
 
 # importa funções de outros arquivos
 
-from main import TIPO_DATASET
 from prompt_builder import montar_prompt
-from llm_client import LLMClient, LLMClientError
-from utils import obter_numero_arquivo, criar_checkpoint_inicial, salvar_checkpoint, limpar_converter_texto
-from config import LLM_REQUEST_DELAY_SECONDS, LLM_ARCHIVE_DELAY_SECONDS
+from llm_client import GeminiClient, LLMClientError
+from utils import obter_numero_arquivo, criar_checkpoint_inicial, salvar_checkpoint, limpar_converter_texto, salvar_respostas
+from config import LLM_REQUEST_DELAY_SECONDS, LLM_ARCHIVE_DELAY_SECONDS, TIPO_DATASET
 
 logger = logging.getLogger(__name__)
 
@@ -24,7 +23,7 @@ def processar_arquivos(caminhos_arquivos: list[Path]):
         caminhos_arquivos: Lista de Path dos arquivos a processar
     """
 
-    client = LLMClient()
+    client = GeminiClient()
 
     for caminho_arquivo in caminhos_arquivos:
         
@@ -41,8 +40,8 @@ def processar_arquivos(caminhos_arquivos: list[Path]):
                 with open(caminho_checkpoint, 'r', encoding='utf-8') as f:
                     dados_checkpoint = json.load(f)
 
-                if dados_checkpoint["total_itens"] < dados_checkpoint["proximo_indice"]:
-                    logger.info(f"Arquivo {caminho_arquivo.name} já processado, seguindo para o próximo...")
+                if dados_checkpoint["total_itens"] > 0 and dados_checkpoint["proximo_indice"] >= dados_checkpoint["total_itens"]:
+                    logger.info(f"Arquivo {caminho_arquivo.name} já processado por completo, seguindo para o próximo...")
                     continue
 
                 elif dados_checkpoint["total_itens"] >= dados_checkpoint["proximo_indice"]:
@@ -66,7 +65,7 @@ def processar_arquivos(caminhos_arquivos: list[Path]):
 
 
 
-def processar_arquivo_unico(caminho_arquivo: Path, caminho_checkpoint: Path, client: LLMClient) -> bool:
+def processar_arquivo_unico(caminho_arquivo: Path, caminho_checkpoint: Path, client: GeminiClient):
     """
     Processa um único arquivo de condutas, realizando a tipificação por LLM.
 
@@ -102,8 +101,19 @@ def processar_arquivo_unico(caminho_arquivo: Path, caminho_checkpoint: Path, cli
 
     except Exception as e:
                 logger.error(f"Erro ao abrir o checkpoint {caminho_arquivo.name}: {e}")
+    
+    if dados_checkpoint["total_itens"] == 0:
+        dados_checkpoint["total_itens"] = len(dados_arquivo)
+        salvar_checkpoint(caminho_checkpoint, dados_checkpoint)
 
-    while dados_checkpoint["total_itens"] <= dados_checkpoint["proximo_indice"]:
+    while dados_checkpoint["total_itens"] > dados_checkpoint["proximo_indice"]:
+
+        try:
+            with open(caminho_checkpoint, 'r', encoding='utf-8') as f:
+                dados_checkpoint = json.load(f)
+
+        except Exception as e:
+            logger.error(f"Erro ao abrir o checkpoint {caminho_checkpoint.name}: {e}")
 
         # Encontra o tudo referente ao id desejado ou retorna None se não existir
         resultado = next((item for item in dados_arquivo if item["id"] == id_conduta), None)
@@ -114,13 +124,33 @@ def processar_arquivo_unico(caminho_arquivo: Path, caminho_checkpoint: Path, cli
         # Monta o prompt com a conduta do id desejado
         prompt_pronto = montar_prompt(texto=conduta)
 
-        # Envia o prompt para a função que vai chamar a LLM e receber a resposta
-        resposta = client.gerar_conteudo(prompt_pronto)
+        logger.info(f"Prompt da conduta de id: {resultado['id']} montado, enviando para a LLM...")
+
+        resposta = None
+        while resposta is None:
+            try:
+                # Envia o prompt para a função que vai chamar a LLM e receber a resposta
+                resposta = client.gerar_conteudo(prompt_pronto)
+            except Exception as e:
+                erro_msg = str(e)
+                if "429" in erro_msg or "RESOURCE_EXHAUSTED" in erro_msg:
+                    logger.warning("Cota da API do Gemini excedida (429). Aguardando 15 segundos para tentar novamente...")
+                    time.sleep(15)
+                    continue  # Refaz a tentativa do mesmo ID sem avançar o loop principal
+                else:
+                    logger.error(f"Erro crítico na chamada da LLM: {e}")
+                    raise e  # Relevanta o erro para ser tratado no nível superior
+
+        logger.info(f"Resposta da conduta de id: {resultado['id']} recebida...")
 
         # Limpa a resposta e converte para um dicionário
         resposta_limpa = limpar_converter_texto(resposta)
 
-        respostas_tipificadas.append(resposta_limpa)
+        resposta_completa = montar_resultado(resultado, resposta_limpa)
+
+        respostas_tipificadas.append(resposta_completa)
+
+        logger.info(f"Resultado da conduta de id: {resultado['id']} adicionado...")
 
         # Atualiza o checkpoint
         dados_checkpoint["proximo_indice"] += 1
@@ -129,12 +159,14 @@ def processar_arquivo_unico(caminho_arquivo: Path, caminho_checkpoint: Path, cli
         # Atualiza id_conduta para o próximo id
         id_conduta += 1 
 
+        logger.info(f"Checkpoint da conduta de id: {resultado['id']} atualizado...")
+
         salvar_checkpoint(caminho_checkpoint, dados_checkpoint)
 
         # Aguardar um tempo entre as requisições para evitar throttling da API
         time.sleep(LLM_REQUEST_DELAY_SECONDS)
 
-    # salvar_respostas(respostas_tipificadas, numero_arquivo)
+    salvar_respostas(TIPO_DATASET, respostas_tipificadas, numero_arquivo)
 
 
     """
@@ -155,3 +187,23 @@ def processar_arquivo_unico(caminho_arquivo: Path, caminho_checkpoint: Path, cli
     quando os itens processados forem iguais ao total de itens
     entao deve salvar em um arquivo todas as respostas das condutas tipificadas em um arquivo na pasta correta
     """
+
+def montar_resultado(caso: dict, resposta: dict) -> dict:
+    """
+    Monta estrutura de resultado da classificação.
+
+    Args:
+        caso: Dicionário com dados do caso original
+        resposta: Dicionário com resposta do modelo LLM
+
+    Returns:
+        Dicionário estruturado com resultado da classificação
+    """
+    return {
+        "id": caso["id"],
+        "nivel": caso["nível"],
+        "texto": caso["texto"],
+        "classe_real": caso["classe_correta"],
+        "classe_predita": resposta["classe"],
+        "justificativa": resposta["justificativa"],
+    }
